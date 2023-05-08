@@ -197,5 +197,3 @@ npm install some-package
 For other package managers such as `yarn` or `pnpm`, please use the associating commands.
 
 Phew! That’s enough housekeeping. Now, let’s dive into Astro!
-
----
