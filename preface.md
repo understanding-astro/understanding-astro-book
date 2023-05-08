@@ -1,3 +1,5 @@
+# Understanding Astro
+
 ## Introduction
 
 I'm not one of those bandwagon-jumping folks who drool over every shiny new library or framework that hits the scene just because it's trending. I'm more of a "wait-and-see" kinda person.
