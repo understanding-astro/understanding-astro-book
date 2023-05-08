@@ -187,10 +187,8 @@ const book = "Understanding Astro.js";
 With code fragments referring to changes in a nearby application code, you’ll find comments with ellipsis to signify no code changes in the previous code e.g.:
 
 ```js
-{
-  /** ... **/
-}
-<h1 data-name={book}>A changed book name</h1>;
+// ...
+<h1 data-name={book}>A changed book name</h1>
 ```
 
 The code above suggests the previous code block remains the same except for the new `<h1>` with `A changed book name`.
