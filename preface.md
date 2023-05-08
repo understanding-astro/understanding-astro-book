@@ -72,7 +72,7 @@ As such, this book differs from the official documentation in a couple of ways:
 
 > Consider reading (or skimming) the official documentation either after reading this book or using it as a reference. This book complements the official docs, not replace them.
 
-## Overview
+## How the book is structured
 
 Every chapter in this book is one of the following:
 
@@ -105,6 +105,10 @@ In project chapters, we’ll apply previous concepts we’ve learned towards bui
 </div>
 
 A project and concept chapter focuses on building a real-world application while introducing new concepts along the way.
+
+## Chapter overview
+
+Below’s an overview of the chapters of the book:
 
 ### Chapter 1: Build your first application with Astro
 
