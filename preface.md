@@ -84,17 +84,17 @@ The mix of these different chapter types will keep you engaged and make your lea
 
 ### Concept chapters
 
-![Concept chapters are the foundational chapters for the rest of the book.](concept@2x.png)
+![Concept chapters are the foundational chapters for the rest of the book.](images/concept@2x.png)
 In concept chapters, we’ll learn the core concepts of Astro. These chapters will include code examples and throwaway applications. We will build no real-world projects in these chapters.
 
 ### Project chapters
 
-![Showtime! Bring together what we've learned to build a real-world project. ](build.png)
+![Showtime! Bring together what we've learned to build a real-world project. ](images/build.png)
 In project chapters, we’ll apply previous concepts we’ve learned towards building a near real-world project.
 
 ### Concept and project chapters
 
-![Bring together the best of the worlds. Build and learn new concepts along the way.](concept%20and%20build.png)
+![Bring together the best of the worlds. Build and learn new concepts along the way.](images/concept%20and%20build.png)
 A project and concept chapter focuses on building a real-world application while introducing new concepts along the way.
 
 ### Chapter 1: Build your first application with Astro
