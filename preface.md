@@ -32,8 +32,6 @@ So, what are you waiting for? Grab your favourite drink (tea over coffee here), 
 
 Cheers 🥂
 
----
-
 ## Don’t be displeased
 
 Okay, If you haven’t already noticed, I write like I speak. I use plain language and analogies that even my nan could (potentially) understand — when I do it right.
@@ -47,8 +45,6 @@ I reckon technical books should be easy on the eyes and a breeze to read. And wh
 If you're up for a jolly good time while you learn a thing or two (well, a lot more), then let's get cracking!
 
 Otherwise, bye friend. No qualms, really.
-
----
 
 ## Differences to the official documentation
 
@@ -71,8 +67,6 @@ As such, this book differs from the official documentation in a couple of ways:
 - **Saves time**: as a by-product of the aforementioned distinctions, this book will save you countless hours tinkering with references and code samples. Yes, you can spend hours digging deep into the docs or Astro source code, but I’ve spent hours (months actually) doing so! I can present you the learnings without you doing as much of the work - don’t be fooled, you still have to do the work of reading the book though.
 
 > Consider reading (or skimming) the official documentation either after reading this book or using it as a reference. This book complements the official docs, not replace them.
-
----
 
 ## Overview
 
@@ -149,8 +143,6 @@ We will leverage hooks into Astro’s build process to build custom functionalit
 Here, we will take a step back and appreciate how far we’ve come. Then we will reiterate the features that make Astro stand out. Features you’ve already seen in practice!
 
 This is where our journey likely ends, and your journey into the world of Astro begins.
-
----
 
 ## Typographic conventions
 
