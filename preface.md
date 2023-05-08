@@ -1,5 +1,9 @@
 # Understanding Astro
 
+By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
+
+<br />
+
 ## Introduction
 
 I'm not one of those bandwagon-jumping folks who drool over every shiny new library or framework that hits the scene just because it's trending. I'm more of a "wait-and-see" kinda person.
@@ -80,17 +84,26 @@ The mix of these different chapter types will keep you engaged and make your lea
 
 ### Concept chapters
 
-![Concept chapters are the foundational chapters for the rest of the book.](images/concept@2x.png)
+<div align="center">
+    <img src="images/concept@2x.png" width="70%" alt="Learn new concepts.">
+</div>
+
 In concept chapters, we’ll learn the core concepts of Astro. These chapters will include code examples and throwaway applications. We will build no real-world projects in these chapters.
 
 ### Project chapters
 
-![Showtime! Bring together what we've learned to build a real-world project. ](images/build.png)
+<div align="center">
+    <img src="images/build.png" width="70%" alt="Build real world projects.">
+</div>
+
 In project chapters, we’ll apply previous concepts we’ve learned towards building a near real-world project.
 
 ### Concept and project chapters
 
-![Bring together the best of the worlds. Build and learn new concepts along the way.](images/concept%20and%20build.png)
+<div align="center">
+    <img src="images/concept%20and%20build.png" width="70%" alt="Building and learning new concepts.">
+</div>
+
 A project and concept chapter focuses on building a real-world application while introducing new concepts along the way.
 
 ### Chapter 1: Build your first application with Astro
