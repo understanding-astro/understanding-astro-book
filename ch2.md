@@ -16,17 +16,15 @@ Consider the Pareto principle:
 
 > The Pareto principle, also known as the 80/20 rule, states that 20% of the input can significantly impact 80% of the outcome in a particular situation or system.
 
-<figure align="center">
-    <img src="images/ch2/pareto.png" width="50%" alt="The pareto principle illustrated" align="center">
-    <figcaption>
-      <em>
-        <smaller>
-            The pareto principle illustrated
-        </smaller>
-      </em>
-    </figcaption>
-    <br><br>
-</figure>
+<div align="center">
+    <figure>
+        <img src="images/ch2/pareto.png" width="50%" alt="The pareto principle illustrated">
+        <figcaption>
+          <em>The pareto principle illustrated</em>
+        </figcaption>
+        <br><br>
+    </figure>
+</div>
 
 Now, pay attention because this is where things get spicy. When it comes to working with Astro, I've got a sneaky suspicion that the Astro components are that magic 20% that yields a whopping 80% productivity.
 
@@ -40,12 +38,14 @@ At the time of writing, consider the definition of Astro components from the off
 
 The first part of the sentence is clear as daylight: _Astro components are the basic building blocks of any Astro project._
 
-<figure align="center">
-    <br>
-    <img src="images/ch2/building-blocks.png" width="70%" alt="Tetris blocks" align="center">
-    <figcaption><em>Like a fun game of Tetris, Astro components are how we build Astro applications.</em></figcaption>
-    <br>
-</figure>
+<div align="center">
+    <figure>
+        <br>
+        <img src="images/ch2/building-blocks.png" width="70%" alt="Tetris blocks">
+        <figcaption><em>Like a fun game of Tetris, Astro components are how we build Astro applications.</em></figcaption>
+        <br>
+    </figure>
+</div>
 
 The second part of the sentence leaves room for interpretation or ambiguity: _they are HTML-only templating components with no client-side runtime._
 
@@ -67,18 +67,14 @@ npx create-react-app test-react-app
 
 This utilises the [create-react-app](https://create-react-app.dev/) utility.
 
-<figure align="center">
-    <br>
-    <img src="images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png" width="70%" alt="Creating a new React project from the terminal." align="center">
-    <figcaption>
-      <em>
-        <smaller>
-            Creating a new React project from the terminal.
-        </smaller>
-      </em>
-    </figcaption>
-    <br><br>    
-</figure>
+<div align="center">
+    <figure>
+        <br>
+        <img src="images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png" width="70%" alt="Creating a new React project from the terminal.">
+        <figcaption><em>Creating a new React project from the terminal.</em></figcaption>
+        <br>
+    </figure>
+</div>
 
 This will create a new React app in the `test-react-app` directory.
 
