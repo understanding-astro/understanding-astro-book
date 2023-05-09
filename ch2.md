@@ -2,8 +2,6 @@
 
 Go beyond the basics and master the essential Astro entity.
 
----
-
 ## What you’ll learn
 
 - What makes Astro stand out from other Javascript libraries.
@@ -12,15 +10,18 @@ Go beyond the basics and master the essential Astro entity.
 - Understand the behaviour of Astro component markup, styles and scripts.
 - Learn the powerful Astro template syntax and how it differs from `JSX.`
 
----
-
 ## Introduction
 
 Consider the Pareto principle:
 
 > The Pareto principle, also known as the 80/20 rule, states that 20% of the input can significantly impact 80% of the outcome in a particular situation or system.
 
-![The pareto principle illustrated](images/ch2/pareto.png width="70%")
+<figure align="center">
+    <br>
+    <img src="images/ch2/pareto.png" width="70%" alt="The pareto principle illustrated" align="center">
+    <figcaption><em>The pareto principle illustrated</em></figcaption>
+    <br>
+</figure>
 
 Now, pay attention because this is where things get spicy. When it comes to working with Astro, I've got a sneaky suspicion that the Astro components are that magic 20% that yields a whopping 80% productivity.
 
@@ -34,7 +35,12 @@ At the time of writing, consider the definition of Astro components from the off
 
 The first part of the sentence is clear as daylight: _Astro components are the basic building blocks of any Astro project._
 
-![Like a fun game of Tetris, Astro components are how we build Astro applications.](images/ch2/building-blocks.png)
+<figure align="center">
+    <br>
+    <img src="images/ch2/building-blocks.png" width="70%" alt="Tetris blocks" align="center">
+    <figcaption><em>Like a fun game of Tetris, Astro components are how we build Astro applications.</em></figcaption>
+    <br>
+</figure>
 
 The second part of the sentence leaves room for interpretation or ambiguity: _they are HTML-only templating components with no client-side runtime._
 
@@ -56,7 +62,12 @@ npx create-react-app test-react-app
 
 This utilises the [create-react-app](https://create-react-app.dev/) utility.
 
-![Creating a new React project from the terminal.](images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png)
+<figure align="center">
+    <br>
+    <img src="images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png" width="70%" alt="Creating a new React project from the terminal." align="center">
+    <figcaption><em>Creating a new React project from the terminal.</em></figcaption>
+    <br>
+</figure>
 
 This will create a new React app in the `test-react-app` directory.
 
@@ -209,8 +220,6 @@ This right here is what’s meant by **zero Javascript by default.** This is the
 I’m not advocating that you don’t use React or your favourite framework. However, this example helps you understand Astro’s premise, i.e., to eliminate the need to have such client-side runtime **if you don’t need it.**
 
 The exciting truth is that we don’t need the Javascript runtime overhead for many applications, such as content-driven websites! So ditch it in favour of Astro.
-
----
 
 ## What is an Astro component?
 
