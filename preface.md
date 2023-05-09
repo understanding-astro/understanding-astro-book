@@ -186,7 +186,7 @@ const book = "Understanding Astro.js";
 <h1 data-name={book}>A new book</h1>
 ```
 
-With code fragments referring to changes in a nearby application code, you’ll find comments with ellipsis to signify no code changes in the previous code, e.g.:
+With code fragments referring to changes in a nearby application code, you’ll find an ellipsis to signify no code changes in the previous code, e.g.:
 
 ```js
 // ...
