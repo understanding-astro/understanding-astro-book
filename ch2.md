@@ -17,10 +17,15 @@ Consider the Pareto principle:
 > The Pareto principle, also known as the 80/20 rule, states that 20% of the input can significantly impact 80% of the outcome in a particular situation or system.
 
 <figure align="center">
-    <br>
-    <img src="images/ch2/pareto.png" width="70%" alt="The pareto principle illustrated" align="center">
-    <figcaption><em>The pareto principle illustrated</em></figcaption>
-    <br>
+    <img src="images/ch2/pareto.png" width="50%" alt="The pareto principle illustrated" align="center">
+    <figcaption>
+      <em>
+        <smaller>
+            The pareto principle illustrated
+        </smaller>
+      </em>
+    </figcaption>
+    <br><br>
 </figure>
 
 Now, pay attention because this is where things get spicy. When it comes to working with Astro, I've got a sneaky suspicion that the Astro components are that magic 20% that yields a whopping 80% productivity.
@@ -65,8 +70,14 @@ This utilises the [create-react-app](https://create-react-app.dev/) utility.
 <figure align="center">
     <br>
     <img src="images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png" width="70%" alt="Creating a new React project from the terminal." align="center">
-    <figcaption><em>Creating a new React project from the terminal.</em></figcaption>
-    <br>
+    <figcaption>
+      <em>
+        <smaller>
+            Creating a new React project from the terminal.
+        </smaller>
+      </em>
+    </figcaption>
+    <br><br>    
 </figure>
 
 This will create a new React app in the `test-react-app` directory.
