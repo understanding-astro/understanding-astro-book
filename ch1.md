@@ -1,3 +1,7 @@
+# Understanding Astro
+
+<br />
+
 ## Chapter 1: Build your first Astro Application
 
 > Long is the road to learning by precepts, but short and successful by examples - Seneca the Younger.

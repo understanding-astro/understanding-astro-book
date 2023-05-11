@@ -1,3 +1,7 @@
+# Understanding Astro
+
+<br />
+
 ## Chapter 2: Astro Components In-depth
 
 Go beyond the basics and master the essential Astro entity.
