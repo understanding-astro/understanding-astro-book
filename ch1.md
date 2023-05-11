@@ -56,7 +56,7 @@ If unsure, run `node --version` in your terminal. You will get back a node versi
 Don’t have nodejs installed? Then, visit the official [download](https://nodejs.org/en/download) page and install the necessary package for your operating system. It’s as easy as installing any other computer program. Click, click, click!
 
 <figure>
-    <img src="images/ch1/CleanShot%202023-04-28%20at%2010.44.30@2x.pngg" width="70%" alt="The NodeJS download page." align="center">
+    <img src="images/ch1/CleanShot%202023-04-28%20at%2010.44.30@2x.png" width="70%" alt="The NodeJS download page." align="center">
     <figcaption><em>The NodeJS download page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -346,7 +346,7 @@ We’ve defined Astro pages as files in the `src/pages/`directory. Unfortunately
 For example, if we duplicate the `favicon.svg` file in `public/favicon.svg` into the `pages` directory, does this represent a `favicon` page?
 
 <figure>
-    <img src="images/ch1/CleanShot%202023-04-29%20at%2009.55.21.png" width="70%" alt="Duplicating the favicon in the pages directory." align="center">
+    <img src="images/ch1/CleanShot%202023-04-29%20at%2009.55.21.png" width="40%" alt="Duplicating the favicon in the pages directory." align="center">
     <figcaption><em>Duplicating the favicon in the pages directory.</em></figcaption>
     <br><br><br>
 </figure>
@@ -2568,7 +2568,7 @@ Deploying a static website is relatively the same regardless of the technology u
 At the end of your deployment build, we’ll have static assets to deploy to any service we choose.
 
 <figure>
-    <img src="images/ch1/DraggedImage.tiff" width="70%" alt="Generating production builds." align="center">
+    <img src="images/ch1/generate-prod-build.png" width="70%" alt="Generating production builds." align="center">
     <figcaption><em>Generating production builds.</em></figcaption>
     <br><br><br>
 </figure>
@@ -2637,7 +2637,7 @@ However, in the real world, you may find this less optimal.
 The main challenge here is that every change made to your website requires you to build the application and re-upload it to your server manually.
 
 <figure>
-    <img src="images/ch1/DraggedImage-1.tiff" width="70%" alt="Manually redeploying after new changes." align="center">
+    <img src="images/ch1/manual-redeployment.png" width="70%" alt="Manually redeploying after new changes." align="center">
     <figcaption><em>Manually redeploying after new changes.</em></figcaption>
     <br><br><br>
 </figure>
