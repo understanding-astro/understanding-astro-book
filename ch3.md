@@ -8,7 +8,7 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 
 > “What I cannot create, I do not understand” — Richard Feynman
 
-Astro’s fast narrative relies on component islands, which allow the use of other framework components like React, Vue, or Svelte in our Astro applications. This chapter will guide us in creating our own component island from the ground up.
+Astro’s fast narrative relies on component islands, which allow using other framework components like React, Vue, or Svelte in our Astro applications. This chapter will guide us in creating our own component island from the ground up.
 
 <br /> 
 <br />
