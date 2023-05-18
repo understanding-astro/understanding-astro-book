@@ -1106,6 +1106,84 @@ const technologies = ['Astro', 'React', 'Vue']
 </ul>
 ```
 
+##### Revisiting Slots
+
+If you want to easily add external HTML content to your component template, the `<slot />` element is your friend! Any child elements you include will be automatically rendered in the `<slot />` of a component.
+
+<figure>
+    <img src="images/ch2/slot.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
+    <figcaption><em>Using the <slot/> element.</em></figcaption>
+    <br><br><br>
+</figure>
+
+If we had a basic `Main` component with a slot as shown below:
+
+```js
+// 📂 src/components/main.astro
+---
+---
+
+<main>
+  <slot />
+</main>
+```
+
+The child elements of `Main` will be rendered in the `<slot />` as shown below:
+
+```js
+// 📂 src/pages/index.astro
+---
+---
+<Main>
+  <p>This will be rendered in the slot </p>
+</Main>
+```
+
+We can also provide fallback `<slot>` content when no child elements are passed to the component. To do this, provide the `<slot />` its own children as shown below:
+
+```js
+// 📂 src/components/main.astro
+---
+---
+
+<main>
+  <slot>
+    <p>This paragraph will be rendered if no child elements are passed to Main</p>
+  </slot>
+</main>
+```
+
+It is possible to provide more than one slot via named slots! Consider the following example:
+
+```js
+// 📂 src/components/main.astro
+---
+---
+
+<main>
+  <h1> This is header </h1>
+  <slot />
+  <p>This is an INTRO paragraph </p>
+  <slot name="after-intro" />
+  <footer> &copy; 2023 </footer>
+  <slot name="after-footer" />
+</main>
+```
+
+In this case, we can render specific child elements to the specific slots `after-intro` and `after-footer` as shown below:
+
+```js
+// 📂 src/pages/index.astro
+---
+---
+<Main>
+  <p slot="after-intro">Hello after Intro</p>
+  <p>This will be rendered in the default (nameless) slot </p>
+  {/** This will be rendered in the after-footer slot **/}
+  <p slot="after-footer">Download my new book </>
+</Main>
+```
+
 ##### Not quite JSX
 
 Astro’s syntax will feel very familiar to React developers because it is designed to feel similar to HTML and JSX. However, there are significant differences to be aware of so we don’t shoot ourselves in the foot.
