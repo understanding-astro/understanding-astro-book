@@ -1,3 +1,9 @@
+# 🚀 Understanding Astro
+
+By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
+
+<br />
+
 ## Chapter 3: Build Your Own Component Island
 
 > “What I cannot create, I do not understand” — Richard Feynman
