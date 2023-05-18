@@ -8,6 +8,8 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 
 > “What I cannot create, I do not understand” — Richard Feynman
 
+Astro’s fast narrative relies on component islands, which allow the use of other framework components like React, Vue, or Svelte in our Astro applications. This chapter will guide us in creating our own component island from the ground up.
+
 <br /> 
 <br />
 
@@ -30,7 +32,7 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 
 ## A brief history of how we got here
 
-Let’s peep into the past and explore several application rendering techniques.
+To ensure the coming technical implementation is built on a solid understanding, let’s peep into the past and explore the several application rendering techniques we may employ on a frontend application.
 
 It is essential to note that this isn’t an exhaustive guide to front-end application rendering. However, we’ll learn enough to understand and appreciate the component islands architecture.
 
