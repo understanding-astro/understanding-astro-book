@@ -1243,11 +1243,52 @@ Astro and JSX also differ in how whitespaces are treated. Astro follows the HTML
 
 In most cases, this isn’t very important except when you don’t want that space there! e.g., with coloured text backgrounds.
 
+Consider the `Code.astro` component shown below:
+
+```js
+// 📂 src/components/Code.astro
+---
+---
+
+<code>
+  <slot />
+</code>
+
+<style>
+  code {
+    background-color: red;
+    color: wheat;
+  }
+</style>
+```
+
+Including the `Code` component within a paragraph will result in highlighted white spaces.
+
 <figure>
     <img src="images/ch2/white-space.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
     <figcaption><em>Extra white spaces in coloured text backgrounds.</em></figcaption>
     <br><br><br>
 </figure>
+
+```js
+// 📂 src/pages/index.astro
+---
+import Code from "../components/Code.astro";
+---
+
+<p>Use an <Code>if</Code> statement. Displaying a list? Try array <Code>map()</Code>.</p>
+```
+
+To prevent this, change the `Code` component render to ignore white spaces:
+
+```js
+// ✅ will add no extra character spaces
+<span>
+  <slot />
+</span>
+```
+
+And that’s it!
 
 ## Conclusion
 
