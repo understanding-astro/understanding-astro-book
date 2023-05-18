@@ -10,7 +10,7 @@ Go beyond the basics and master the essential Astro entity.
 
 ## What you’ll learn
 
-- What makes Astro stand out from other Javascript libraries.
+- What zero Javascript means in practical terms.
 - Why we should consider ditching the Javascript runtime overhead.
 - Truly understand what an Astro component is.
 - Understand the behaviour of Astro component markup, styles and scripts.
