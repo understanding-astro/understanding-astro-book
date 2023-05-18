@@ -56,19 +56,19 @@ I find technical books that parrot the official documentation of the technology 
 
 As such, this book differs from the official documentation in a couple of ways:
 
-- **Tone of writing**: this book adopts a non-technical documentation writing style for ease of understanding. Whether you appreciate this or not is left to your taste.
+- **The tone of writing**: this book adopts a non-technical documentation writing style for ease of understanding. Whether you appreciate this or not is left to your taste.
 
 - **Doesn’t follow the Diataxis framework**: the Astro technical documentation is written following the [Diataxis](https://diataxis.fr/) framework. The framework suggests structuring content around four distinct types: tutorial, how-to-guide, explanation and reference.
 
-  This book breaks out of this strict structure to emphasise understanding and practical learning. This book is not a reference and doesn’t aim to replace the official Astro references. In the Diataxis lingo, understanding Astro may be defined as a mix of how-to guides and a careful blend of tutorials with elaborate explanations interwoven.
+This book breaks out of this strict structure to emphasise understanding and practical learning. This book is not a reference and doesn’t aim to replace the official Astro references. In the Diataxis lingo, understanding Astro may be defined as a mix of how-to guides and a careful blend of tutorials with elaborate explanations interwoven.
 
 - **Advanced usage**: some advanced Astro uses are tucked away in the official references - without explanations or practical examples. This is perfectly fine for a documentation site. Experienced engineers can spend time digging into these. However, this book bridges the gap.
 
-  For example, consider building custom Astro integrations. You will not find a better (practical) resource than this book.
+For example, consider building custom Astro integrations. You will not find a better (practical) resource than this book.
 
 - **Real-world applications**: sometimes, to piece together a puzzle, it’s essential to see it at play in near real-world examples. This book explains important concepts and goes beyond that to put them to practice in comparative real-world examples.
 
-- **Saves time**: as a by-product of the above distinctions, this book will save you countless hours tinkering with references and code samples. Yes, you can spend hours digging deep into the docs or Astro source code, but I’ve spent hours (months, actually) doing so! Therefore, I can present the learnings without you doing as much of the work - don’t be fooled; you still have to do the work of reading the book.
+- **Saves time**: This book will save you countless hours tinkering with references and code samples as a by-product of the above distinctions. Yes, you can spend hours digging deep into the docs or Astro source code, but I’ve spent hours (months, actually) doing so! Therefore, I can present the learnings without you doing as much of the work - don’t be fooled; you still have to do the work of reading the book.
 
 > Consider reading (or skimming) the official documentation after reading this book or using it as a reference. This book complements the official docs, not replace them. ## How the book is structured
 
