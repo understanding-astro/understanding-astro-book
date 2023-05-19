@@ -1,3 +1,19 @@
+# 🚀 Understanding Astro
+
+By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
+
+<br />
+
+<br /> 
+<br />
+
+[![](/images/ch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+
+<br /> 
+<br />
+
+[![](view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
+
 ## Chapter 4: The Secret Life of Astro Component Islands
 
 Component islands are the secret to Astro’s super-fast narrative. It’s time to learn everything about them.
