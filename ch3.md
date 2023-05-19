@@ -157,7 +157,7 @@ NB: it is assumed that the server sends a mostly static `HTML` page with minimal
 
 ---
 
-### Server-side rendering with client-side (re)hydration
+### Server-side rendering with client-side hydration
 
 We’ve explored rendering on both sides of the application rendering pole. However, what if there was a way to use server and client-side rendering? Some strategy right in the middle of the hypothetic rendering pole?
 
@@ -167,9 +167,9 @@ We’ve explored rendering on both sides of the application rendering pole. Howe
     <br><br><br>
 </figure>
 
-If we were building an interactive application and working with a framework like React or Vue, a widely common approach is to render on the server and rehydrate on the client.
+If we were building an interactive application and working with a framework like React or Vue, a widely common approach is to render on the server and hydrate on the client.
 
-Rehydrating, in layperson’s terms, means re-rendering the entire application again on the client to attach event handlers to the DOM and support interactivity.
+Hydration, in layperson’s terms, means re-rendering the entire application again on the client to attach event handlers to the DOM and support interactivity.
 
 In theory, this is supposed to give us the wins of server-side rendering plus the interactivity we get with rich client-side rendered applications.
 
@@ -189,13 +189,13 @@ Making an otherwise static page interactive (e.g., attaching event listeners) is
     <br><br><br>
 </figure>
 
-#### The pros of server-side rendering with client-side (re)hydration
+#### The pros of server-side rendering with client-side hydration
 
 - Benefits of SSR, e.g., quick FP and FMP
 - Can power highly interactive applications.
 - Supported rendering style in most frontend frameworks such as React and Vue.
 
-#### The cons of server-side rendering with client-side (re)hydration
+#### The cons of server-side rendering with client-side hydration
 
 - Slow time to first byte — similar to standard SSR.
 - It can delay time to Interactivity (TTI) by making the user interface look ready before completing client-side processing. The period where the UI looks ready but is unresponsive (not hydrated) is what’s been — quite hilariously — dubbed the uncanny valley.
@@ -206,7 +206,7 @@ NB: this assumes certain parts of our application, such as the likes and comment
 
 ### Partial hydration for the win
 
-Combining server-side rendering with client-side (re)hydration has the potential to offer the best of both worlds. However, it is not without its demerits.
+Combining server-side rendering with client-side hydration has the potential to offer the best of both worlds. However, it is not without its demerits.
 
 One way to tackle the heavy delay in time to interactivity (TTI) seems obvious. Instead of hydrating the entire application, why not hydrate only the interactive bits?
 
@@ -216,7 +216,7 @@ One way to tackle the heavy delay in time to interactivity (TTI) seems obvious. 
     <br><br><br>
 </figure>
 
-As opposed to rehydrating the entire application client side, partial hydration refers to hydrating specific parts of an application while leaving the rest static.
+As opposed to hydrating the entire application client side, partial hydration refers to hydrating specific parts of an application while leaving the rest static.
 
 For example, in our application, we’d leave the rest of the page static while hydrating just the like button and comment section.
 
@@ -234,7 +234,7 @@ Talk about flexibility!
 
 #### The pros of partial hydration
 
-- The same benefits of server-side rendering with client-side (re)hydration.
+- The same benefits of server-side rendering with client-side hydration.
 - Faster time to interactivity as the entire application isn’t hydrated.
 
 #### The cons of partial hydration
