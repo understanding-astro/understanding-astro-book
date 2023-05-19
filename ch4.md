@@ -95,7 +95,7 @@ import DefaultIslandLayout from "../layouts/DefaultIslandLayout.astro";
 <DefaultIslandLayout />
 ```
 
-`DefaultIslandLayout` provides the layout for the entire page and includes a `slot` for rendering whatever children elements are passed to it.
+`DefaultIslandLayout` provides the layout for the entire page and includes a `slot` for rendering whatever children elements are passed to it. Initialise the project locally and take a look!
 
 ### Step 2: Install the framework
 
