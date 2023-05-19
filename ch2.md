@@ -1060,7 +1060,7 @@ If we pass a lower cased variable, Astro will try to render the variable name as
 
 ##### Revisiting Slots
 
-If you want to easily add external HTML content to your component template, the `<slot />` element is your friend! Any child elements you include will be automatically rendered in the `<slot />` of a component.
+If you want to easily add external HTML content to your component template, the `<slot />` element is your friend! Any child elements you include will be automatically rendered in a component’s `<slot />`.
 
 <figure>
     <img src="images/ch2/slot.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
