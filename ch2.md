@@ -1058,54 +1058,6 @@ Within the component script section, we deconstruct the `as` prop and rename it 
 
 If we pass a lower cased variable, Astro will try to render the variable name as a literal `HTML` tag. In our example, `<as>Text content</as>` and not the dynamic `<h1>Text content</h1>` or `<div>Text content</div>` element.
 
-##### Fragments and multiple elements
-
-An Astro component can render multiple elements without wrapping them in a parent element.
-
-For example:
-
-```html
-<!-- 📂 src/pages/index.astro -->
-<p>This is a paragraph</p>
-<em>This is an adjacent node</em>
-```
-
-If we inspect this result on a page, we’ll have both `<p>` and `<em>` rendered within the `body` element. In standard component compositions, the multiple elements will be valid children of whatever the parent node is.
-
-The exception to this is when we dynamically create multiple elements, e.g., with lists. In this case, we must wrap the various elements in a container node. We may leverage the `<Fragment>` element for this purpose:
-
-```js
----
-const technologies = ['Astro', 'React', 'Vue']
----
-
-<ul>
- {technologies.map((tech) => (
-	<Fragment>
-      <li>Name: {tech}</li>
-	  <li>Read more: <a href="#">{tech}</a></li>
-    </Fragment>
- ))}
-</ul>
-```
-
-Alternatively, use the fragment `<>` shorthand:
-
-```js
----
-const technologies = ['Astro', 'React', 'Vue']
----
-
-<ul>
- {technologies.map((tech) => (
-	<>
-      <li>Name: {tech}</li>
-	  <li>Read more: <a href="#">{tech}</a></li>
-    </>
- ))}
-</ul>
-```
-
 ##### Revisiting Slots
 
 If you want to easily add external HTML content to your component template, the `<slot />` element is your friend! Any child elements you include will be automatically rendered in the `<slot />` of a component.
