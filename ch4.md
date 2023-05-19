@@ -40,9 +40,12 @@ So, why would we use framework components and not just provide native support vi
 
 It would be best to stick with a `<script>` element in cases where you can get by with vanilla Javascript or Typescript. However, there are cases where we may favour a framework component. For example:
 
--**Design systems**: using a pre-existing design system in an Astro project can save time, depending on the use case. It also helps keep all your applications looking and feeling the same way. -**Open-source**: we might consider utilising a feature-rich open-source framework component already existing instead of building some highly interactive component from scratch. This way, we can easily use an open-source framework component in Astro. -**Ease of development**: we may find building richer stateful user interfaces easier and faster to implement via framework components than vanilla Javascript / Typescript provided in `<script>`.
+-**Design systems**: using a pre-existing design system in an Astro project can save time, depending on the use case. It also helps keep all your applications looking and feeling the same way.
 
-<br /> 
+-**Open-source**: we might consider utilising a feature-rich open-source framework component already existing instead of building some highly interactive component from scratch. This way, we can easily use an open-source framework component in Astro.
+
+-**Ease of development**: we may find building richer stateful user interfaces easier and faster to implement via framework components than vanilla Javascript / Typescript provided in `<script>`.
+
 <br />
 
 To use a framework component in Astro, we leverage component islands.
@@ -245,7 +248,7 @@ By default, when you render a framework component, Astro automatically renders i
 Essentially, you get no interactivity from framework components by default.
 
 <figure>
-    <img src="images/ch4/b.png" width="50%" alt="#NoJavscriptByDefault" align="center">
+    <img src="images/ch4/no-js-by-default.png" width="50%" alt="#NoJavscriptByDefault" align="center">
     <figcaption><em>If Astro launched a Twitter campaign, #NoJavscriptByDefault would make an excellent hashtag.</em></figcaption>
     <br><br><br>
 </figure>
@@ -919,7 +922,7 @@ As expected, this renders the nested `UpvoteContent` component:
 Recursively rendering the same component is rarely the goal we want to achieve. However, rendering nested framework components is powerful because we can compose an entire framework component application as we see fit.
 
 <figure>
-    <img src="images/ch4/nesting-framework-component.png" width="70%" alt="Nesting multiple child components to make a more significant application." align="center">
+    <img src="images/ch4/nesting-framework-component.png" width="50%" alt="Nesting multiple child components to make a more significant application." align="center">
     <figcaption><em>Nesting multiple child components to make a more significant application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -951,7 +954,7 @@ const OurReactComponent = () => {
 This is an invalid use. The reason is that the React component is rendered a React “island”. Consequently, the island should contain only valid React code. This is the same for other framework component islands.
 
 <figure>
-    <img src="images/ch4/wrong-astro-island-composition.png" width="70%" alt="Do not render an Astro component as a framework component child without a <slot>." align="center">
+    <img src="images/ch4/wrong-astro-island-composition.png" width="50%" alt="Do not render an Astro component as a framework component child without a <slot>." align="center">
     <figcaption><em>Do not render an Astro component as a framework component child without a slot.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1006,4 +1009,4 @@ Lastly, it’s essential to utilise parallel loading. This means that when we lo
 
 In this chapter, we learned about component islands in Astro and how they work. We also explored why framework components are sometimes preferred over vanilla Javascript or Typescript via a `<script>` element.
 
-We also went through the steps to use a framework component in an Astro application, including building a static site, installing the framework, and writing the component. Finally, we experimented using a React and Vue component to demonstrate the use of framework components. Cheers!
+We also went through the steps to use a framework component in an Astro application, including building a static site, installing the framework, and writing the component. Finally, we experimented using a React and Vue component to demonstrate the use of framework components. See you in the next chapter!
