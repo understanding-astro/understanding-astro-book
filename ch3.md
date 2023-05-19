@@ -666,10 +666,6 @@ The `replaceTemplates` method is as shown below:
      */
     for (const node of templates) {
       /**
-       * Grab the HTML content within each <template>
-       */
-      let html = node.innerHTML;
-      /**
        * replace the <template> with its HTML content
        * e.g., <template><p>Hello</p></template> becomes <p>Hello</p>
        */
@@ -680,7 +676,7 @@ The `replaceTemplates` method is as shown below:
 
 Do you see what we’re doing here?
 
-We’re essentially grabbing the template DOM subtree, accessing its content and removing the `<template>` element.
+We’re grabbing the template DOM subtree, accessing its content and removing the `<template>` element.
 
 ```html
 <!-- 👀 before -->
