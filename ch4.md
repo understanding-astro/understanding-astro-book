@@ -12,7 +12,8 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 <br /> 
 <br />
 
-[![](view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
+
+[![](/images/ch3/view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
 
 ## Chapter 4: The Secret Life of Astro Component Islands
 
