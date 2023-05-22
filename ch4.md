@@ -12,7 +12,6 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 <br /> 
 <br />
 
-
 [![](/images/ch3/view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
 
 ## Chapter 4: The Secret Life of Astro Component Islands
@@ -61,7 +60,7 @@ It would be best to stick with a `<script>` element in cases where you can get b
 
 -**Open-source**: we might consider utilising a feature-rich open-source framework component already existing instead of building some highly interactive component from scratch. This way, we can easily use an open-source framework component in Astro.
 
--**Ease of development**: we may find building richer stateful user interfaces easier and faster to implement via framework components than vanilla Javascript / Typescript provided in `<script>`.
+-**Ease of development**: we may find building richer stateful user interfaces easier, more manageable, and faster to implement via framework components than vanilla Javascript / Typescript provided in `<script>`.
 
 <br />
 
@@ -71,19 +70,26 @@ Let’s return to our example application.
 
 Assuming we’ve weighed the pros and cons and decided to introduce a framework component, the following section highlights the steps to take.
 
-### Step 1: Build your static Astro site
+### Step 1: Build an Astro site
 
-In most cases, we would already have an Astro static site developed before introducing a framework component.
+We can’t use framework components without having some Astro site to use them in.
 
-We’ve already seen how to build static sites with Astro, so creating a new static project is unnecessary. Instead, let’s start a new Astro with an existing template I’ve prepared.
+We’ve already seen how to build static sites with Astro, so creating a new static project is unnecessary. Instead, let’s start a new Astro with a project I’ve prepared.
 
-Run the following command:
+Clone the project:
 
 ```bash
-npm create astro@latest -- --template https://github.com/understanding-astro/astro-islands-visual-example.git --yes
+git clone https://github.com/understanding-astro/astro-islands-visual-example.git
 ```
 
-Then, start the application via `npm run start`, which will run the project in one of your local ports.
+Then, install dependencies and start the application via the following:
+
+```bash
+npm install
+npm run start
+```
+
+This will run the project in one of your local ports.
 
 <figure>
     <img src="images/ch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png" width="70%" alt="The astro islands visual example project." align="center">
@@ -114,7 +120,7 @@ import DefaultIslandLayout from "../layouts/DefaultIslandLayout.astro";
 
 `DefaultIslandLayout` provides the layout for the entire page and includes a `slot` for rendering whatever children elements are passed to it. Initialise the project locally and take a look!
 
-### Step 2: Install the framework
+### Step 2: Install the framework integration
 
 Astro provides official integrations for the supported framework components. In this example, we’ll use the `react` framework.
 
@@ -399,14 +405,16 @@ We may go ahead and render our `UpvoteContent` component as shown below:
 ```js
 // 📂 src/pages/index.astro
 ---
+import LargeMainContentLayout from "../layouts/LargeMainContentLayout.astro";
 import { UpvoteContent } from "../components/UpvoteContent.jsx";
-import DefaultIslandLayout from "../layouts/DefaultIslandLayout.astro";
 ---
 
-<DefaultIslandLayout>
+<LargeMainContentLayout>
   <UpvoteContent client:visible />
-</DefaultIslandLayout>
+</LargeMainContentLayout>
 ```
+
+Note that I’m importing a different `LargeMainContentLayout` layout in the code block above. The layout is responsible for pushing the island off the initial viewport.
 
 Here are the hydration steps:
 
@@ -460,7 +468,7 @@ import DefaultIslandLayout from "../layouts/DefaultIslandLayout.astro";
 ---
 
 <DefaultIslandLayout>
-  <UpvoteContent client:only="idle" />
+  <UpvoteContent client:idle />
 </DefaultIslandLayout>
 ```
 
@@ -838,13 +846,15 @@ Here’s how to reference the children element in `UpvoteContentVue`:
 ```js
 // 📂 src/components/UpvoteContent.vue
 <template>
+ <div>
   <div>
     <!-- the slot element renders the children element -->
     <slot />
   </div>
 
- <div>
+  <div>
    <!-- The rest of the template goes here -->
+  </div>
  </div>
 </template>
 ```
