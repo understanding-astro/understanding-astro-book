@@ -1453,7 +1453,7 @@ const block5Promise = async () => {
 </html>
 ```
 
-An important fact to note here is that Astro initiates the async fetches in parallel when there are sibling async components in the component tree.
+An important fact to note here is that Astro initiates the async fetches in parallel when sibling async components are in the component tree.
 
 So in our example, `Block #1` through `Block #5` start fetching data in parallel and don’t block one another.
 
