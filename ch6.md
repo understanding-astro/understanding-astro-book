@@ -1334,7 +1334,7 @@ import LoadPets from '../components/LoadPets.astro'
 </html>
 ```
 
-In this contrived example, Astro will steam out the `<head>`, `<h1>` and `<p>` sections to the browser before stopping to fetch the data in `<LoadPets />` and then stream its result to the browser when ready.
+In this contrived example, Astro will stream out the `<head>`, `<h1>` and `<p>` sections to the browser before stopping to fetch the data in `<LoadPets />` and then stream its result to the browser when ready.
 
 Let’s explore a visual example.
 
@@ -1430,13 +1430,29 @@ const block5Promise = async () => {
   </head>
   <body>
     <Block text="Block #1" delay={1000} />
-    <Block text="Block #2" delay={1000} />
-    <Block text="Block #3" delay={1000} />
-    <Block text="Block #4" delay={1000} />
+    <Block text="Block #2" delay={2000} />
+    <Block text="Block #3" delay={3000} />
+    <Block text="Block #4" delay={4000} />
     <p>{block5Promise}</p>
   </body>
 </html>
 ```
+
+An important fact to note here is that Astro initiates the async fetches in parallel when there are sibling async components in the component tree.
+
+So in our example, `Block #1` through `Block #5` start fetching data in parallel and don’t block one another.
+
+When `Block #4` is rendered, `block5Promise` is already fetched as it takes one second compared to `Block #4`’s four seconds. Hence, the result of `block5` is streamed alongside `Block #4`.
+
+This can be difficult to grasp via text descriptions.
+
+<figure>
+    <img src="images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png" width="70%" alt="Describing the parallelized rendering of each block." align="center">
+    <figcaption><em>Describing the parallelized rendering of each block.</em></figcaption>
+    <br><br><br>
+</figure>
+
+Give this a look in your Chrome browser.
 
 ### Taking advantage of streaming
 
