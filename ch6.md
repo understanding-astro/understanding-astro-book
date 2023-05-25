@@ -8,8 +8,6 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 
 This chapter will guide you on enabling SSR in an Astro project, and we will also discuss a detailed overview of the extensive features a server-side rendered Astro project offers.
 
----
-
 ## What you’ll learn
 
 - Understand how to enable SSR in an Astro project.
@@ -17,8 +15,6 @@ This chapter will guide you on enabling SSR in an Astro project, and we will als
 - Provide flexible server routing via dynamic routes.
 - Understand the request-response cycle and its relevant properties.
 - Take advantage of Astro API routes to power robust applications.
-
----
 
 ## When do you need SSR?
 
@@ -216,8 +212,6 @@ Run `npm run build` to see this in action.
     <figcaption><em>Static and server-side generated pages in the same project.</em></figcaption>
     <br><br><br>
 </figure>
-
----
 
 ## From Request to Response
 
@@ -645,8 +639,6 @@ And voila! Typescript knows our secrets - for the better.
     <br><br><br>
 </figure>
 
----
-
 ## Dynamic routes
 
 Static routes are arguably easy to reason about. For example, `.astro`, `.md` and `.mdx` files in `src/pages` will automatically become pages on our website.
@@ -874,8 +866,6 @@ Well, Astro needs to make a decision, and that’s following the priority list b
     <figcaption><em>Route priority order from first to last.</em></figcaption>
     <br><br><br>
 </figure>
-
----
 
 ## Server endpoints
 
@@ -1259,8 +1249,6 @@ This will match unhandled methods in our implementation, such as `PATCH` request
     <figcaption><em>Handling unsupported methods in a server endpoint.</em></figcaption>
     <br><br><br>
 </figure>
-
----
 
 ## Streams, oh streams
 
