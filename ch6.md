@@ -992,13 +992,26 @@ export const get: APIRoute = ({
 
 Some of these should be familiar from discussing the request and response objects on the `Astro` global; however, here’s a quick breakdown:
 
+<br />
+
+| Property      | What?                                                                                                      |
+| ------------- | ---------------------------------------------------------------------------------------------------------- |
+| url           | A standard [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL) interface.                          |
+| site          | The site property from the astro configuration file.                                                       |
+| params        | An object containing values of the dynamic path segments matched by the request.                           |
+| request       | A standard [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request) interface of the Fetch API. |
+| cookies       | Similar to Astro.cookies. It contains utilities for reading and manipulating cookies.                      |
+| generator     | Indicates the version of Astro our project is running.                                                     |
+| redirect      | Similar to Astro.redirect.                                                                                 |
+| clientAddress | Specifies the IP address of the request. Similar to Astro.clientAddress                                    |
+
 The alien properties here are `generator`, `url` and `params`.
 
 `generator` is easy to reason about, while `url` represents a [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL) object constructed from `request.url` i.e., identical to `new URL(request.url)`. It’s worth mentioning that a similar object may be accessed on the `Astro` global via `Astro.url`. This could come in handy in static pages.
 
 What about `params`? Well, that requires a separate section when we discuss dynamic routes.
 
-### Dynamic routes
+### Dynamic API routes
 
 The dynamic route fabric on pages works the same magic on API endpoints.
 
