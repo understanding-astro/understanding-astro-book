@@ -20,7 +20,8 @@ Astro’s fast narrative relies on component islands, which allow using other fr
 
 [![](view-project.png)](https://github.com/understanding-astro/build-your-own-component-island)
 
----
+<br /> 
+<br />
 
 ## What you’ll learn
 

@@ -27,6 +27,9 @@ Get started with the basics of Astro by building a practical application: a pers
 
 [![](images/ch1/view-project.png)](https://github.com/understanding-astro/astro-beginner-project)
 
+<br /> 
+<br />
+
 ## What you’ll learn
 
 - Build a personal website with Astro.

@@ -8,6 +8,21 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 
 This chapter will guide you on enabling SSR in an Astro project, and we will also discuss a detailed overview of the extensive features a server-side rendered Astro project offers.
 
+<br /> 
+<br /> 
+<br /> 
+<br />
+
+[![](images/ch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+
+<br /> 
+<br />
+
+[![](images/ch1/view-project.png)](https://github.com/understanding-astro/ssr)
+
+<br /> 
+<br />
+
 ## What you’ll learn
 
 - Understand how to enable SSR in an Astro project.
