@@ -53,7 +53,7 @@ Astro provides the following ways to do this:
 
 The second option is the focus of this chapter.
 
-At the time of writing, Astro lets you use components built with `React`, `Preact`, `Svelte`, `Sue`, `SolidJS`, `AlpineJS` or `Lit` in your Astro components. Moving on, I’ll refer to these as **framework components**.
+At the time of writing, Astro lets you use components built with `React`, `Preact`, `Svelte`, `Vue`, `SolidJS`, `AlpineJS` or `Lit` in your Astro components. Moving on, I’ll refer to these as **framework components**.
 
 So, why would we use framework components and not just provide native support via a `<script>` element?
 
