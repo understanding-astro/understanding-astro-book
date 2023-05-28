@@ -112,7 +112,7 @@ In project chapters, we’ll apply previous concepts we’ve learned towards bui
 
 A project and concept chapter focuses on building a real-world application while introducing new concepts along the way.
 
-## Chapter overview
+## Chapters overview
 
 Below’s a summary of the chapters of the book:
 
