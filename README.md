@@ -22,6 +22,30 @@
 
 ## Chapter 2: Astro Components In-depth
 
+- ### What you'll learn
+- ### Introduction
+- ### The backbone of Astro
+  - #### The Javascript runtime fatigue
+  - #### Ditching the runtime
+- ### What is an Astro component?
+
+  - #### An astro component is a .astro file capable of rendering any valid HTML
+  - #### Astro components can be composed to make complex pages
+    - Styles are local by default
+    - The HTML element will always be present
+    - Styles and Scripts are Hoisted
+    - The `<head>` element and its children will not be hoisted
+  - #### Astro components can leverage a powerful templating syntax
+
+    - Consuming variables
+    - Create dynamic attributes
+    - Dynamic HTML
+    - Dynamic Tags
+    - Revisiting Slots
+    - Not quite JSX
+
+  - #### Conclusion
+
 ## Chapter 3: Build your own Component Island
 
 ## Chapter 4: The Secret Life of Astro Component Islands
