@@ -10,13 +10,13 @@
 
 ## Introduction
 
-- #### [Don't be displeased](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#dont-be-displeased)
-- #### [Differences to the official documentation](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#differences-to-the-official-documentation)
+- ### [Don't be displeased](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#dont-be-displeased)
+- ### [Differences to the official documentation](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#differences-to-the-official-documentation)
 
-- #### [How the book is structured](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#how-the-book-is-structured)
-- #### [Chapters overview](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#chapter-overview)
+- ### [How the book is structured](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#how-the-book-is-structured)
+- ### [Chapters overview](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#chapter-overview)
 
-- #### [Typographic conventions](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#typographic-conventions)
+- ### [Typographic conventions](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#typographic-conventions)
 
 ## Chapter 1: Build your first Astro Application
 
