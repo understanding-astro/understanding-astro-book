@@ -60,11 +60,11 @@ As such, this book differs from the official documentation in a couple of ways:
 
 - **Doesn’t follow the Diataxis framework**: the Astro technical documentation is written following the [Diataxis](https://diataxis.fr/) framework. The framework suggests structuring content around four distinct types: tutorial, how-to-guide, explanation and reference.
 
-This book breaks out of this strict structure to emphasise understanding and practical learning. This book is not a reference and doesn’t aim to replace the official Astro references. In the Diataxis lingo, understanding Astro may be defined as a mix of how-to guides and a careful blend of tutorials with elaborate explanations interwoven.
+  This book breaks out of this strict structure to emphasise understanding and practical learning. This book is not a reference and doesn’t aim to replace the official Astro references. In the Diataxis lingo, understanding Astro may be defined as a mix of how-to guides and a careful blend of tutorials with elaborate explanations interwoven.
 
 - **Advanced usage**: some advanced Astro uses are tucked away in the official references - without explanations or practical examples. This is perfectly fine for a documentation site. Experienced engineers can spend time digging into these. However, this book bridges the gap.
 
-For example, consider building custom Astro integrations. You will not find a better (practical) resource than this book.
+  For example, consider building custom Astro integrations. You will not find a better (practical) resource than this book.
 
 - **Real-world applications**: sometimes, to piece together a puzzle, it’s essential to see it at play in near real-world examples. This book explains important concepts and goes beyond that to put them to practice in comparative real-world examples.
 
