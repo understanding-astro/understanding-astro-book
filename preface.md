@@ -72,6 +72,8 @@ For example, consider building custom Astro integrations. You will not find a be
 
 > Consider reading (or skimming) the official documentation after reading this book or using it as a reference. This book complements the official docs, not replace them. ## How the book is structured
 
+## How the book is structured
+
 Every chapter in this book is one of the following:
 
 1. A concept chapter
