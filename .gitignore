@@ -1,1 +1,4 @@
 .DS_Store
+
+# local scripts e.g., for TOC generation 
+_scripts/ 

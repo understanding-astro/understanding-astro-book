@@ -256,7 +256,7 @@ To make sense of this, think of these islands as partially hydrated components. 
 
 ---
 
-## A partial hydration islands architecture implementation.
+## A partial hydration islands architecture implementation
 
 It’s game time, mate.
 

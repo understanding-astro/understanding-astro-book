@@ -1,3 +1,5 @@
+## Table of contents
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
