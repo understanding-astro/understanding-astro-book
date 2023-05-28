@@ -8,6 +8,14 @@
 
 # Table of contents
 
+## Introduction
+
+- ### Don't be displeased
+- ### Differences to the official documentation
+- ### How the book is structured
+- ### Chapter overview
+- ### Typographic conventions
+
 ## Chapter 1: Build your first Astro Application
 
 ## Chapter 2: Astro Components In-depth
