@@ -6,6 +6,17 @@
 
 <br />
 
+> Welcome to Understanding Astro!
+
+This book is the ultimate guide to Astro. Months of work digging into Astro and explaining its concepts in practical, easy to understand fashion.
+
+If you want to understand Astro's next-gen island architecture and more, you've come to the right source.
+
+## Want to download the ebooks? Click here
+
+<br />
+<br />
+
 # ✨ Table of contents ✨
 
 ## Introduction
@@ -17,6 +28,11 @@
 - ### [Chapters overview](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#chapter-overview)
 
 - ### [Typographic conventions](https://github.com/understanding-astro/understanding-astro-book/blob/master/preface.md#typographic-conventions)
+
+<figure>
+    <img src="images/ch-1.png" alt="Chapter 1: Build your first Astro Application">
+    <br>
+</figure>
 
 ## [Chapter 1: Build your first Astro Application](#chapter-1-build-your-first-astro-application)
 
@@ -70,6 +86,11 @@
 
 - ### [How fast is our Astro website?](#how-fast-is-our-astro-website)
 - ### [Conclusion](#conclusion)
+
+<figure>
+    <img src="images/ch-2.png" alt="Chapter 1: Build your first Astro Application">
+    <br>
+</figure>
 
 ## Chapter 2: Astro Components In-depth
 
