@@ -1,3 +1,9 @@
+# 🚀 Understanding Astro
+
+By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
+
+<br />
+
 ## Chapter 8: Build Your Own Astro Integrations
 
 At the end of this chapter, you’ll join the order of mages who wield great power to bend Astro to their will with new functionality and behaviour.
@@ -339,8 +345,8 @@ export default defineConfig({
 Now we should have a beautiful log message that feels native to Astro, i.e., like the other server console logs.
 
 <figure>
-    <img src="images/ch8/The custom integration "native feeling" server log" width="70%" alt="The custom integration "native feeling" server log" align="center">
-    <figcaption><em>The custom integration "native feeling" server log.</em></figcaption>
+    <img src="images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png" width="70%" alt="The custom integration 'native feeling' server log" align="center">
+    <figcaption><em>The custom integration 'native feeling' server log.</em></figcaption>
     <br><br><br>
 </figure>
 
@@ -479,10 +485,12 @@ Here’s a breakdown of when these are executed and how we could leverage these 
 
 <br />
 
-| Hook | Executed when … | Why use this … |
-| | -- | |
-| `astro:config: setup` | Astro is initialised. This happens before the Astro project configuration (or Vite config) are resolved. | Consider being the first one at the pub before it opens. You can cause a ruckus before anyone else even shows up! Similarly, this is where you swoop in to extend the project configuration e.g., updating the Astro config, applying Vite plugins, adding component renderers and injecting scripts before Astro knows what hit it. |
-| `astro:config:done` | The Astro config has been resolved. At this point, every `astro:config:setup` hook has been invoked for every integration in the project. | Like a perfect pint of beer, we patiently wait to grab the glass only after it’s been poured. Similarly, after the Astro config has finally got its act together and all the other integrations have done their thing, this is where we retrieve the final config for use in our integration. |
+<br />
+
+| Hook                  | Executed when …                                                                                                                           | Why use this …                                                                                                                                                                                                                                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `astro:config: setup` | Astro is initialised. This happens before the Astro project configuration (or Vite config) are resolved.                                  | Consider being the first one at the pub before it opens. You can cause a ruckus before anyone else even shows up! Similarly, this is where you swoop in to extend the project configuration e.g., updating the Astro config, applying Vite plugins, adding component renderers and injecting scripts before Astro knows what hit it. |
+| `astro:config:done`   | The Astro config has been resolved. At this point, every `astro:config:setup` hook has been invoked for every integration in the project. | Like a perfect pint of beer, we patiently wait to grab the glass only after it’s been poured. Similarly, after the Astro config has finally got its act together and all the other integrations have done their thing, this is where we retrieve the final config for use in our integration.                                        |
 
 Once `astro:config:done` is fired, there are two branches to consider: development and production mode.
 
@@ -498,11 +506,11 @@ Here’s a breakdown of when these are executed and how we could leverage these 
 
 <br />
 
-| Hook | Executed when … | Why use this … |
-| | -- | |
-| `astro:server: setup` | The Vite server has just been created in development mode. This is before the `listen()`server event is fired i.e., before starting the server. | This is where we may update the Vite server options and middleware. The Vite dev server object is passed as an argument to our hook. |
-| `astro:server:start` | The Vite `listen()`method has just been fired i.e., the server is running. | Like tech-savvy superheroes, we can jump in here to save the day at the last minute - well, if that involves intercepting network requests. This is where we may jump in to intercept network requests at the specified dev server address (passed as an argument to our hook) |
-| `astro:server:done` | The dev server has just been closed. | Like cleaners coming in after the party to sweep up the mess, this is where we run cleanups. If you wish to clean up any side effects triggered during `astro:server:setup` or `astro:server:start`, here’s where you do so! |
+| Hook                  | Executed when …                                                                                                                                 | Why use this …                                                                                                                                                                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `astro:server: setup` | The Vite server has just been created in development mode. This is before the `listen()`server event is fired i.e., before starting the server. | This is where we may update the Vite server options and middleware. The Vite dev server object is passed as an argument to our hook.                                                                                                                                           |
+| `astro:server:start`  | The Vite `listen()`method has just been fired i.e., the server is running.                                                                      | Like tech-savvy superheroes, we can jump in here to save the day at the last minute - well, if that involves intercepting network requests. This is where we may jump in to intercept network requests at the specified dev server address (passed as an argument to our hook) |
+| `astro:server:done`   | The dev server has just been closed.                                                                                                            | Like cleaners coming in after the party to sweep up the mess, this is where we run cleanups. If you wish to clean up any side effects triggered during `astro:server:setup` or `astro:server:start`, here’s where you do so!                                                   |
 
 When we run a production build, two hooks will always be triggered. These are
 
@@ -511,20 +519,20 @@ When we run a production build, two hooks will always be triggered. These are
 
 And here’s a breakdown of when these are executed and how we could leverage these in our custom integrations:
 
-| Hook | Executed when … | Why use this … |
-| -- | | |
-| `astro:build: start` | The Astro config is completely resolved but before the production build begins. | The production build is about to start but perhaps you want to set up some global objects or clients needed during the build? Here’s where we do so. |
-| `astro:build:setup` | The build is just about to get started. At this point, the build config is fully constructed. | To steal the perfect phrase from the official Astro documentation: this is our final chance to modify the build. It's like getting ready for a night out - we’ve put on our best outfit and look sharp, but we just need to add that one last accessory to complete the look. This is our chance to do just that - to overwrite some defaults and make sure everything is looking top-notch. I must mention that if you're not sure whether to use this hook or `astro:build:start`, go for `astro:build:start` instead. |
+| Hook                 | Executed when …                                                                               | Why use this …                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `astro:build: start` | The Astro config is completely resolved but before the production build begins.               | The production build is about to start but perhaps you want to set up some global objects or clients needed during the build? Here’s where we do so.                                                                                                                                                                                                                                                                                                                                                                     |
+| `astro:build:setup`  | The build is just about to get started. At this point, the build config is fully constructed. | To steal the perfect phrase from the official Astro documentation: this is our final chance to modify the build. It's like getting ready for a night out - we’ve put on our best outfit and look sharp, but we just need to add that one last accessory to complete the look. This is our chance to do just that - to overwrite some defaults and make sure everything is looking top-notch. I must mention that if you're not sure whether to use this hook or `astro:build:start`, go for `astro:build:start` instead. |
 
 Now, depending on whether the page being built is statically generated or to be server-side rendered, either `astro:build:generated` or `astro:build:ssr` will be invoked, and finally, `astro:build:done`.
 
 Yes, you guessed it. Here’s the final breakdown of when these are executed and how we could leverage these in our custom integrations:
 
-| Hook | Executed when … | Why use this … |
-| | -- | |
+| Hook                     | Executed when …                                                         | Why use this …                                                                                                                                                                                                                                               |
+| ------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `astro:build: generated` | The static production build has completely generated routes and assets. | Access generated routes and assets before build artefacts are cleaned up. As per the official docs, this is an uncommon case and we might be better off using `astro:build:done` in many cases., except we really need to access these files before cleanup. |
-| `astro:build:ssr` | A production SSR build is completed. | To get access to the SSR manifest. This is helpful when creating custom SSR builds. |
-| `astro:build:done` | The production build is complete! | This is where we may access the generated routes and assets e.g., to be copied somewhere. For transforming generated assets, consider using a Vite plugin and configuring `astro:config:setup`. |
+| `astro:build:ssr`        | A production SSR build is completed.                                    | To get access to the SSR manifest. This is helpful when creating custom SSR builds.                                                                                                                                                                          |
+| `astro:build:done`       | The production build is complete!                                       | This is where we may access the generated routes and assets e.g., to be copied somewhere. For transforming generated assets, consider using a Vite plugin and configuring `astro:config:setup`.                                                              |
 
 ### Examining the hooks evaluation order
 
@@ -785,16 +793,16 @@ Here’s a quick table of the available CLI flags:
 
 <br />
 
-| Name | Description |
-| - | |
-| `--template <name>` | Specify the template. Where `name` could be any of the directories in [https://github.com/withastro/astro/tree/main/examples/](https://github.com/withastro/astro/tree/main/examples/). |
-| `--install` / `--no-install` | Install dependencies (or not). |
-| `--git` / `--no-git` | Initialize git repo (or not). |
-| `--yes` (`-y`) | Skip all prompts and accept the defaults. |
-| `--no` (`-n`) | Skip all prompts and decline the defaults. |
-| `--dry-run` | Walk through the project creation steps without any actual execution. Useful for a “dry run” |
-| `--skip-houston` | Skip the Houston animation. If in a hurry, this saves some time and starts the prompt directly. |
-| `--typescript <option>` | Where `option` is `strict` , `strictest` or`relaxed` |
+| Name                         | Description                                                                                                                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--template <name>`          | Specify the template. Where `name` could be any of the directories in [https://github.com/withastro/astro/tree/main/examples/](https://github.com/withastro/astro/tree/main/examples/). |
+| `--install` / `--no-install` | Install dependencies (or not).                                                                                                                                                          |
+| `--git` / `--no-git`         | Initialize git repo (or not).                                                                                                                                                           |
+| `--yes` (`-y`)               | Skip all prompts and accept the defaults.                                                                                                                                               |
+| `--no` (`-n`)                | Skip all prompts and decline the defaults.                                                                                                                                              |
+| `--dry-run`                  | Walk through the project creation steps without any actual execution. Useful for a “dry run”                                                                                            |
+| `--skip-houston`             | Skip the Houston animation. If in a hurry, this saves some time and starts the prompt directly.                                                                                         |
+| `--typescript <option>`      | Where `option` is `strict` , `strictest` or`relaxed`                                                                                                                                    |
 
 Now, change the directory and run the new Astro application:
 
