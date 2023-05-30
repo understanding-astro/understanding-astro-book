@@ -4,7 +4,7 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 
 <br />
 
-## Chapter 7: Be Audible!
+## Chapter 7: Be Audible! (Fullstack Astro Project)
 
 > … People will believe what they see. Let them see.  
 >  ― Henry David Thoreau

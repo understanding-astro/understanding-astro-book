@@ -155,7 +155,7 @@ The following is a detailed table of contents for Understanding Astro.
     <img src="images/ch-7.png" alt="Chapter 1: Build your first Astro Application">
 </figure>
 
-## [Chapter 7: Be Audible!](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md)
+## [Chapter 7: Be Audible! (Fullstack Astro Project)](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md)
 
 - ### [What you’ll learn](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#what-youll-learn)
 
