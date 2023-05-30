@@ -173,28 +173,27 @@ The following is a detailed table of contents for Understanding Astro.
 
 - ## [A partial hydration islands architecture implementation](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#a-partial-hydration-islands-architecture-implementation)
 
-  - [Objectives](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#objectives)
+  - ### [Objectives](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#objectives)
 
-  - [Installation](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#installation)
+  - ### [Installation](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#installation)
 
-  - [API design](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#api-design)
+  - ### [API design](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#api-design)
 
-  - [Getting started](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#getting-started)
+  - ### [Getting started](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#getting-started)
 
-  - [Leveraging the content template element](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#leveraging-the-content-template-element)
+  - ### [Leveraging the content template element](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#leveraging-the-content-template-element)
 
-  - [Handling lazy hydration via “client:” attributes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#handling-lazy-hydration-via-client-attributes)
+  - ### [Handling lazy hydration via “client:” attributes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#handling-lazy-hydration-via-client-attributes)
 
-  - [Supporting the client:idle and client:media conditions](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#supporting-the-clientidle-and-clientmedia-conditions)
+    - #### [Supporting the client:idle and client:media conditions](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#supporting-the-clientidle-and-clientmedia-conditions)
+    - #### [waitForIdle](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#waitforidle)
+    - #### [waitForMedia](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#waitformedia)
 
-    - [waitForIdle](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#waitforidle)
-    - [waitForMedia](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#waitformedia)
+  - ### [Supporting frameworks: Vue, Petite-vue and Preact](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#supporting-frameworks-vue-petite-vue-and-preact)
 
-  - [Supporting frameworks: Vue, Petite-vue and Preact](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#supporting-frameworks-vue-petite-vue-and-preact)
-
-    - [Vue](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#vue)
-    - [Petite-vue](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#petite-vue)
-    - [Preact](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#preact)
+    - #### [Vue](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#vue)
+    - #### [Petite-vue](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#petite-vue)
+    - #### [Preact](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#preact)
 
 - ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#conclusion)
 
@@ -301,25 +300,25 @@ TBD ...
 
 - ## [Dynamic routes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#dynamic-routes)
 
-  - [1. Named parameters](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#1-named-parameters)
-  - [2. Rest parameters](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#2-rest-parameters)
-  - [Priority order](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#priority-order)
+  - ### [1. Named parameters](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#1-named-parameters)
+  - ### [2. Rest parameters](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#2-rest-parameters)
+  - ### [Priority order](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#priority-order)
 
 - ## [Server endpoints](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#server-endpoints)
 
-  - [Creating server endpoints](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#creating-server-endpoints)
-  - [Request details](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#request-details)
-  - [Dynamic API routes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#dynamic-api-routes)
-  - [Dedicated api directory](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#dedicated-api-directory)
-  - [Supporting other HTTP methods](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#supporting-other-http-methods)
+  - ### [Creating server endpoints](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#creating-server-endpoints)
+  - ### [Request details](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#request-details)
+  - ### [Dynamic API routes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#dynamic-api-routes)
+  - ### [Dedicated api directory](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#dedicated-api-directory)
+  - ### [Supporting other HTTP methods](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#supporting-other-http-methods)
 
 - ## [Streams, oh streams](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#streams-oh-streams)
 
-  - [What is server streaming?](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#what-is-server-streaming)
-  - [Why should we bother?](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#why-should-we-bother)
-  - [Streaming is easy yet difficult](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#streaming-is-easy-yet-difficult)
-  - [Server streaming in Astro](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#server-streaming-in-astro)
-  - [Taking advantage of streaming](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#taking-advantage-of-streaming)
+  - ### [What is server streaming?](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#what-is-server-streaming)
+  - ### [Why should we bother?](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#why-should-we-bother)
+  - ### [Streaming is easy yet difficult](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#streaming-is-easy-yet-difficult)
+  - ### [Server streaming in Astro](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#server-streaming-in-astro)
+  - ### [Taking advantage of streaming](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#taking-advantage-of-streaming)
 
 - ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch6.md#conclusion)
 
