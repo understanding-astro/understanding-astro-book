@@ -59,7 +59,11 @@ npm install && npm run start
 
 The application should successfully run on one of the local server ports.
 
-![The BeAudible app initialised. ](CleanShot%202023-05-29%20at%2011.59.17@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png" width="70%" alt="The BeAudible app initialised" align="center">
+    <figcaption><em>The BeAudible app initialised.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ## Project overview
 
@@ -67,7 +71,11 @@ Our application is for a hypothetical startup, BeAudible, whose mission is to di
 
 In technical terms, BeAudible lets authorised users create audio recordings, upload them to their servers, and have a timeline where people can listen to everyone’s recordings.
 
-![An overview of the BeAudible application.](beaudible-overview.png)
+<figure>
+    <img src="images/ch7/beaudible-overview.png" width="70%" alt="An overview of the BeAudible application" align="center">
+    <figcaption><em>An overview of the BeAudible application.</em></figcaption>
+    <br><br><br>
+</figure>
 
 The project we just cloned will receive and upload a user’s recording and eventually display every recording on a shared timeline.
 
@@ -77,7 +85,11 @@ Let’s explore the pages in the project.
 
 Firstly, consider the homepage, i.e., the base route `/`.
 
-![The sections of the BeAudible application.](CleanShot%202023-05-29%20at%2011.59.17@2x-1.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png" width="70%" alt="The sections of the BeAudible application" align="center">
+    <figcaption><em>The sections of the BeAudible application.</em></figcaption>
+    <br><br><br>
+</figure>
 
 1. The navigation bar holds a feedback form for users to send their thoughts.
 2. The navigation bar includes a record link to navigate to a dedicated page for recording a user’s audio.
@@ -88,7 +100,11 @@ Firstly, consider the homepage, i.e., the base route `/`.
 
 If you click “Record” from the navigation bar, you will be navigated to the `/record` route where a user can record their audio.
 
-![The record page.](CleanShot%202023-05-29%20at%2012.24.30.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2012.24.30.png" width="70%" alt="The record page" align="center">
+    <figcaption><em>The record page.</em></figcaption>
+    <br><br><br>
+</figure>
 
 A React component hydrated in the Astro application powers the recording user interface element.
 
@@ -96,7 +112,11 @@ A React component hydrated in the Astro application powers the recording user in
 
 Now, go to the `/signup` route.
 
-![The sign up page.](CleanShot%202023-05-29%20at%2012.22.45.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2012.22.45.png" width="70%" alt="The sign up page" align="center">
+    <figcaption><em>The sign up page.</em></figcaption>
+    <br><br><br>
+</figure>
 
 This is the page to sign up users to BeAudible!
 
@@ -104,7 +124,11 @@ This is the page to sign up users to BeAudible!
 
 Finally, visit the `/signin` route.
 
-![The signin page.](CleanShot%202023-05-29%20at%2012.21.59.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2012.21.59.png" width="70%" alt="The signin page" align="center">
+    <figcaption><em>The signin page.</em></figcaption>
+    <br><br><br>
+</figure>
 
 This is the page for previously authenticated users to log in to the application.
 
@@ -129,43 +153,79 @@ Let’s point our attention to setting up our backend server. Remember, we will 
 
 Go to the [Firebase homepage]([https://firebase.google.com/]) and visit the Firebase console.
 
-![The Firebase homepage. ](CleanShot%202023-05-26%20at%2012.35.06@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png" width="70%" alt="The Firebase homepage" align="center">
+    <figcaption><em>The Firebase homepage.</em></figcaption>
+    <br><br><br>
+</figure>
 
 The process is much smoother if you have (and are signed in to) a Google account (e.g., Gmail).
 
 Next, create a new Firebase project.
 
-![Creating a new Firebase project.](CleanShot%202023-05-26%20at%2012.36.54@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png" width="70%" alt="Creating a new Firebase project" align="center">
+    <figcaption><em>Creating a new Firebase project.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Name the project `BeAudible` and choose whether to use Google Analytics in the project.
 
-![Choosing Google analytics and creating the project.](CleanShot%202023-05-26%20at%2012.41.10@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png" width="70%" alt="Choosing Google analytics and creating the project" align="center">
+    <figcaption><em>Choosing Google analytics and creating the project.</em></figcaption>
+    <br><br><br>
+</figure>
 
 After successfully creating the project, add a web application to the Firebase project.
 
-![Adding a web application to the Firebase project. ](CleanShot%202023-05-26%20at%2012.51.18@2x.png)
+<figure>
+    <img src="images/ch7/Adding a web application to the Firebase project" width="70%" alt="Adding a web application to the Firebase project" align="center">
+    <figcaption><em>Adding a web application to the Firebase project.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Now, continue the web app set-up process by choosing a name (preferably the same as before), setup Firebase hosting and registering the web application.
 
-![Continuing the application set-up.](CleanShot%202023-05-26%20at%2012.53.46@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png" width="70%" alt="Continuing the application set-up" align="center">
+    <figcaption><em>Continuing the application set-up.</em></figcaption>
+    <br><br><br>
+</figure>
 
 The next step is critical.
 
 **Copy your web app’s Firebase configuration**. We’ll use that to initialise the Firebase application client side.
 
-![Copying the Firebase configuration for the client SDK.](CleanShot%202023-05-26%20at%2012.59.41@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png" width="70%" alt="Copying the Firebase configuration for the client SDK" align="center">
+    <figcaption><em>Copying the Firebase configuration for the client SDK.</em></figcaption>
+    <br><br><br>
+</figure>
 
 The next steps are optional. Follow the guided prompt from Firebase and continue to the Firebase console.
 
-![Following the guided prompt from Firebase.](CleanShot%202023-05-26%20at%2013.02.36@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png" width="70%" alt="Following the guided prompt from Firebase" align="center">
+    <figcaption><em>Following the guided prompt from Firebase.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Upon completion, we’ll be redirected to the Firebase application dashboard.
 
 Go to the project settings, find the service account section and generate a new private key we’ll leverage in our server application.
 
-![Project overview > Project settings ](CleanShot%202023-05-27%20at%2011.26.30.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-27%20at%2011.26.30.png" width="70%" alt="Project overview > Project settings" align="center">
+    <figcaption><em>Project overview > Project settings.</em></figcaption>
+    <br><br><br>
+</figure>
 
-![Generating a new private key. ](CleanShot%202023-05-27%20at%2011.28.49.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-27%20at%2011.28.49.png" width="70%" alt="Generating a new private key" align="center">
+    <figcaption><em>Generating a new private key.</em></figcaption>
+    <br><br><br>
+</figure>
 
 This will download a JSON file to your machine. Keep it secure as it provides access to Firebase’s service. We will leverage this to access Firebase’s server resources from our application server.
 
@@ -175,7 +235,11 @@ Generally speaking, authentication is serious business and can take different fo
 
 Firebase provides an authentication service, so we will leverage its client libraries to authenticate the user client-side.
 
-![Simplified authentication process.](simple-auth-flow.png)
+<figure>
+    <img src="images/ch7/simple-auth-flow.png" width="70%" alt="Simplified authentication process" align="center">
+    <figcaption><em>Simplified authentication process.</em></figcaption>
+    <br><br><br>
+</figure>
 
 The client authentication will communicate with Firebase’s servers, but later on, we will look at verifying a user’s authentication token (JWT) on our server.
 
@@ -183,15 +247,27 @@ First, set up the Firebase application to receive client authentication requests
 
 Return to the Firebase console and set up authentication.
 
-![Select authentication from the list of provided services.](CleanShot%202023-05-26%20at%2015.13.50@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png" width="70%" alt="Select authentication from the list of provided services" align="center">
+    <figcaption><em>Select authentication from the list of provided services.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Firebase provides different sign-in methods. Let’s keep this simple. Enable the Email and password method from the Firebase console.
 
-![Selecting the email / password sign-in method.](CleanShot%202023-05-26%20at%2015.15.36@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png" width="70%" alt="Selecting the email / password sign-in method" align="center">
+    <figcaption><em>Selecting the email / password sign-in method.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Make sure to enable the option and hit save.
 
-![Enabling and saving the Email / Password sign-in method.](CleanShot%202023-05-26%20at%2015.16.33@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png" width="70%" alt="Enabling and saving the Email / Password sign-in method" align="center">
+    <figcaption><em>Enabling and saving the Email / Password sign-in method.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ### Initialising firebase on the client
 
@@ -210,7 +286,11 @@ The script exports the initialised application via `app` and the authentication 
 
 We must now replace the `firebaseConfig` variable with the object copied while initialising the firebase application.
 
-![The firebase client configuration. ](CleanShot%202023-05-26%20at%2012.59.41@2x-1.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png" width="70%" alt="The firebase client configuration" align="center">
+    <figcaption><em>The firebase client configuration.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Once this is done, we should have the Firebase client rightly initialised.
 
@@ -218,7 +298,11 @@ Once this is done, we should have the Firebase client rightly initialised.
 
 Talking to the production firebase services while testing and developing locally is rather silly.
 
-![Sending requests to the production Firebase servers while developing locally. ](talk-to-prod-firebase.png)
+<figure>
+    <img src="images/ch7/talk-to-prod-firebase.png" width="70%" alt="Sending requests to the production Firebase servers while developing locally" align="center">
+    <figcaption><em>Sending requests to the production Firebase servers while developing locally.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Instead, we can use the Firebase Emulator Suite while developing locally. The emulator suite will intercept our Firebase service requests and provide a testing ground locally without hitting the production services.
 
@@ -238,7 +322,11 @@ npm run emulators
 
 This will start the authentication and storage emulators with a user interface running on `localhost:4001`. We can view the development data in the emulator user interface, e.g., application user signups and uploaded recordings.
 
-![Starting the Firebase emulators. ](CleanShot%202023-05-29%20at%2015.06.19.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2015.06.19.png" width="70%" alt="Starting the Firebase emulators" align="center">
+    <figcaption><em>Starting the Firebase emulators.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ### Handling user signups
 
@@ -246,7 +334,11 @@ So, how are we going to handle user signups?
 
 Please consider the overall flow diagram below:
 
-![The signup flow.](sign-up-flow.png width=805)
+<figure>
+    <img src="images/ch7/sign-up-flow.png" width="70%" alt="The signup flow" align="center">
+    <figcaption><em>The signup flow.</em></figcaption>
+    <br><br><br>
+</figure>
 
 - The flow kicks off with the user submitting the signup form.
 - Then check if the submitted email and password are valid.
@@ -493,7 +585,11 @@ I have loosely referred to this as auth tokens. We will use this ID token to rec
 
 Consider the flow below:
 
-![The protected route flow. ](protected-route-flow.png)
+<figure>
+    <img src="images/ch7/protected-route-flow.png" width="70%" alt="The protected route flow" align="center">
+    <figcaption><em>The protected route flow.</em></figcaption>
+    <br><br><br>
+</figure>
 
 - The flow kicks off with the user landing on the homepage.
   > Note that the following steps are performed on the server, i.e., within the frontmatter section of our server-side rendered page.
@@ -551,7 +647,11 @@ try {
 }
 ```
 
-![The token cookie set in the browser response.](CleanShot%202023-05-29%20at%2015.41.52.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2015.41.52.png" width="70%" alt="The token cookie set in the browser response" align="center">
+    <figcaption><em>The token cookie set in the browser response.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ### Updating the redirect URL
 
@@ -606,7 +706,11 @@ When we sign out a user using the Firebase client SDK, the issued client `token`
 
 So, consider the flow for our solution below:
 
-![The user sign out flow.](sign-out-flow.png width="50%")
+<figure>
+    <img src="images/ch7/sign-out-flow.png" width="50%" alt="The user sign out flow." align="center">
+    <figcaption><em>The user sign out flow..</em></figcaption>
+    <br><br><br>
+</figure>
 
 Let’s start our implementation by updating the client application to handle the click event on the sign-out button and initiate our flow as shown below:
 
@@ -686,29 +790,53 @@ Let’s fix this by setting up cloud storage to save user recordings on the serv
 
 Go to the Firebase console and click “See all build features” to find the cloud storage service.
 
-![Viewing all build features on the Firebase console.](CleanShot%202023-05-26%20at%2015.33.40@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png" width="70%" alt="Viewing all build features on the Firebase console" align="center">
+    <figcaption><em>Viewing all build features on the Firebase console.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Next, select the Storage service.
 
-![Selecting the storage service. ](CleanShot%202023-05-26%20at%2015.33.58@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png" width="70%" alt="Selecting the storage service" align="center">
+    <figcaption><em>Selecting the storage service.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Then begin the setup.
 
-![Clicking get started on the Storage service page.](CleanShot%202023-05-26%20at%2015.34.29@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png" width="70%" alt="Clicking get started on the Storage service page" align="center">
+    <figcaption><em>Clicking get started on the Storage service page.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Keep the storage rules as-is:
 
-![The default storage rules. ](CleanShot%202023-05-26%20at%2015.34.40@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png" width="70%" alt="The default storage rule" align="center">
+    <figcaption><em>The default storage rule.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Then select a server location.
 
 BeAudible is a hypothetical US startup, so I’ll choose a US location here.
 
-![Selecting a Storage location.](CleanShot%202023-05-26%20at%2015.35.33@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png" width="70%" alt="Selecting a Storage location" align="center">
+    <figcaption><em>Selecting a Storage location.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Once the setup is complete, visit the Storage page and copy the bucket name in the form `gs://{name-of-project}.appspot.com.`
 
-![The Storage bucket name.](CleanShot%202023-05-27%20at%2016.43.07.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-27%20at%2016.43.07.png" width="70%" alt="The Storage bucket name" align="center">
+    <figcaption><em>The Storage bucket name.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Excellent!
 
@@ -736,7 +864,11 @@ Open the `Recorder` component and consider the `onAudioDownload` callback.
 
 After a user completes the recording, this callback will be invoked. Our first task is to go ahead and upload the audio blob to the server.
 
-![Sending audio blob to a server endpoint.](upload-flow.png)
+<figure>
+    <img src="images/ch7/upload-flow.png" width="70%" alt="Sending audio blob to a server endpoint" align="center">
+    <figcaption><em>Sending audio blob to a server endpoint.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ### Handling uploads via an API route
 
@@ -744,7 +876,11 @@ Let’s go ahead and create the API endpoint that’ll receive the audio blob fr
 
 Consider the flow for our solution below:
 
-![The save recording endpoint flow diagram.](save-audio-recording-flow.png)
+<figure>
+    <img src="images/ch7/save-audio-recording-flow.png" width="70%" alt="The save recording endpoint flow diagram" align="center">
+    <figcaption><em>The save recording endpoint flow diagram.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Now, here’s the annotated code:
 
@@ -992,7 +1128,11 @@ export const Recorder = (props: Props) => {
 
 Now, a user should be able to record in the browser, and we will go ahead and save the recording on our backend!
 
-![Viewing saved recordings in the Firebase emulator.](CleanShot%202023-05-29%20at%2019.15.22@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png" width="70%" alt="Viewing saved recordings in the Firebase emulator" align="center">
+    <figcaption><em>Viewing saved recordings in the Firebase emulator.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ## Fetching data from the server
 
@@ -1078,7 +1218,11 @@ Now update the component template section to render the “audibles”. We’ll 
 
 In the code above, we display an `Empty` user interface empty if there are no audibles. Otherwise, we render a sorted list of audibles.
 
-![Rendering the sorted list of audio recordings.](CleanShot%202023-05-29%20at%2019.06.31@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png" width="70%" alt="Rendering the sorted list of audio recordings" align="center">
+    <figcaption><em>Rendering the sorted list of audio recordings.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ## Submitting HTML forms
 
@@ -1127,7 +1271,11 @@ if (Astro.request.method === "POST") {
 
 I’m keeping this simple by just logging the feedback on the server. However, we could save this value to a database in the real world. The crux here is receiving the form values, as shown above.
 
-![The logged feedback data. ](CleanShot%202023-05-29%20at%2019.14.07@2x.png)
+<figure>
+    <img src="images/ch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png" width="70%" alt="The logged feedback data" align="center">
+    <figcaption><em>The logged feedback data.</em></figcaption>
+    <br><br><br>
+</figure>
 
 ## Conclusion
 
