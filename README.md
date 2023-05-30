@@ -201,6 +201,46 @@ The following is a detailed table of contents for Understanding Astro.
 
 - ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#conclusion)
 
-## Chapter 8: Build your own Astro Integrations
+<figure>
+    <br>
+    <img src="images/ch-8.png" alt="Chapter 1: Build your first Astro Application">
+</figure>
+
+- ## [Chapter 8: Build Your Own Astro Integrations](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#chapter-8-build-your-own-astro-integrations)
+
+- ## [What you’ll learn](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#what-youll-learn)
+
+- ## [Astro and Vite](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#astro-and-vite)
+
+- ## [What are Astro integrations](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#what-are-astro-integrations)
+
+- ## [Hello world. Sorry, Hello, Integration](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#hello-world-sorry-hello-integration)
+
+  - ### [Project objective](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#project-objective)
+  - ### [Your first custom integration](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#your-first-custom-integration)
+  - ### [Printing a message to the server console](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#printing-a-message-to-the-server-console)
+  - ### [Custom integrations as factory functions](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#custom-integrations-as-factory-functions)
+
+- ## [The Astro hooks lifecycle](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#the-astro-hooks-lifecycle)
+
+  - ### [The when and why of hooks](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#the-when-and-why-of-hooks)
+  - ### [Examining the hooks evaluation order](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#examining-the-hooks-evaluation-order)
+
+- ## [Build a default prerender integration](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#build-a-default-prerender-integration)
+
+  - ### [Project objective](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#project-objective-1)
+  - ### [Integration API](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#integration-api)
+  - ### [Technical solution overview](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#technical-solution-overview)
+  - ### [Initialising projects via CLI flags](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#initialising-projects-via-cli-flags)
+  - ### [Setting up the integration](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#setting-up-the-integration)
+  - ### [Validating a resolved Astro configuration](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#validating-a-resolved-astro-configuration)
+  - ### [Applying Vite plugins in custom integrations](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#applying-vite-plugins-in-custom-integrations)
+  - ### [Writing Vite plugins for Astro](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#writing-vite-plugins-for-astro)
+  - ### [Parsing and transforming ASTs](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#parsing-and-transforming-asts)
+  - ### [Manual testing](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#manual-testing)
+
+- ## [Building renderers and library Integrations](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#building-renderers-and-library-integrations)
+
+- ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch8.md#conclusion)
 
 ## Conclusion
