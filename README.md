@@ -152,6 +152,50 @@ The following is a detailed table of contents for Understanding Astro.
 
 ## Chapter 7: Be Audible!
 
+- [What you’ll learn](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#what-youll-learn)
+
+  - [Project setup](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#project-setup)
+
+  - [Project overview](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#project-overview)
+
+    - [The homepage](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#the-homepage)
+    - [The record page](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#the-record-page)
+    - [The signup page](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#the-signup-page)
+    - [The sign-in page](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#the-sign-in-page)
+    - [Helper components and utilities](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#helper-components-and-utilities)
+
+  - [Technology choices](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#technology-choices)
+
+  - [Backend setup](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#backend-setup)
+
+  - [Handling authentication](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#handling-authentication)
+
+    - [Initialising firebase on the client](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#initialising-firebase-on-the-client)
+    - [Using the Firebase emulators](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#using-the-firebase-emulators)
+    - [Handling user signups](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#handling-user-signups)
+    - [Handling user sign in](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#handling-user-sign-in)
+
+  - [Implementing protected pages](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#implementing-protected-pages)
+
+    - [Initialising Firebase on the server](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#initialising-firebase-on-the-server)
+    - [Protecting the home page route](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#protecting-the-home-page-route)
+    - [Updating the redirect URL](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#updating-the-redirect-url)
+    - [Log out a user from the protected page](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#log-out-a-user-from-the-protected-page)
+
+  - [Cloud storage setup](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#cloud-storage-setup)
+
+  - [Uploading audio recordings](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#uploading-audio-recordings)
+
+    - [Handling uploads via an API route](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#handling-uploads-via-an-api-route)
+    - [Uploading recordings from the client](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#uploading-recordings-from-the-client)
+    - [Reacting to UI changes in framework components](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#reacting-to-ui-changes-in-framework-components)
+
+  - [Fetching data from the server](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#fetching-data-from-the-server)
+
+  - [Submitting HTML forms](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#submitting-html-forms)
+
+  - [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch7.md#conclusion)
+
 ## Chapter 8: Build your own Astro Integrations
 
 ## Conclusion
