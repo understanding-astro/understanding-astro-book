@@ -121,18 +121,18 @@ The following is a detailed table of contents for Understanding Astro.
 
   - #### [Component script](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#component-script)
 
-    - [1. Creating or referencing variables](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#1-creating-or-referencing-variables)
-    - [2. Handling imports](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#2-handling-imports)
-    - [3. Fetching data](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#3-fetching-data)
+    - ##### [1. Creating or referencing variables](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#1-creating-or-referencing-variables)
+    - ##### [2. Handling imports](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#2-handling-imports)
+    - ##### [3. Fetching data](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#3-fetching-data)
 
-  - [Component template](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#component-template)
+  - #### [Component template](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#component-template)
 
-    - [Consuming variables](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#consuming-variables)
-    - [Create dynamic attributes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#create-dynamic-attributes)
-    - [Dynamic HTML](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#dynamic-html)
-    - [Dynamic Tags](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#dynamic-tags)
-    - [Revisiting Slots](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#revisiting-slots)
-    - [Not quite JSX](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#not-quite-jsx)
+    - ##### [Consuming variables](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#consuming-variables)
+    - ##### [Create dynamic attributes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#create-dynamic-attributes)
+    - ##### [Dynamic HTML](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#dynamic-html)
+    - ##### [Dynamic Tags](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#dynamic-tags)
+    - ##### [Revisiting Slots](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#revisiting-slots)
+    - ##### [Not quite JSX](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#not-quite-jsx)
 
 - ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch2.md#conclusion)
 
