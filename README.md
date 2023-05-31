@@ -421,4 +421,4 @@ TBD ...
     <img src="images/ch-end.png" alt="Conclusion">
 </figure>
 
-## Conclusion
+## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/conclusion.md)
