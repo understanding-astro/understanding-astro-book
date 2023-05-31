@@ -141,19 +141,19 @@ This is a concept chapter where we’ll get hands-on experience working with fra
 
 We will build many throwaway applications to explore how component islands work in Astro and why they are significant.
 
-### Chapter 5: The React documentation site clone
+### Chapter 5: Oh My React! (The React Documentation Site Clone)
 
-This project and concept chapter answers the question, what does a real-world Astro application look like?
+In this project and concept chapter, we will explore techniques for handling large amounts of content within an Astro application. Additionally, we will examine real-world use cases to provide practical examples.
 
 This chapter will solidify the previous concepts learned and introduce some new ones while we build out a clone of the React documentation site with production best practices.
 
 ### Chapter 6: Server-side rendering (SSR) in Astro
 
-This concept chapter will explore server-side rendering and the new features unlocked in an Astro server-side rendered application.
+This concept chapter will explore server-side rendering and the new features unlocked in an Astro server-side rendered application. We will explore dynamic routing, API endpoints, Server streaming, and much more.
 
-### Chapter 7: The Audible blog clone
+### Chapter 7: Be Audible! (Full stack Astro Project)
 
-This project chapter will explore a practical example of a server-side application with interesting product constraints. We will fetch data from a headless CMS and leverage production best practices.
+This project chapter will take you beyond static sites into building fullstack applications with Astro. In this chapter, I’ll argue that if you can build the app as an MPA and leverage component islands, you can build it with Astro.
 
 ### Chapter 8: Build your own Astro integrations
 
@@ -161,11 +161,22 @@ This is a project and concept chapter where we’ll answer the question, what ha
 
 We will leverage hooks into Astro’s build process to build custom functionalities. These are called Astro integrations.
 
-### Chapter 9: Conclusion and what next
+### Chapter 9: Conclusion
 
 Here, we will step back and appreciate how far we’ve come. Then we will reiterate the features that make Astro stand out. Features you’ve already seen in practice!
 
 This is where our journey likely ends, and your journey into the world of Astro begins.
+
+## Prerequisites
+
+I desperately tried to make this book “work for everyone”, but that’s incredibly difficult.
+
+So, to make the best out of this book:
+
+- You should already know some HTML, CSS and JS: this is not a web development beginner guide.
+- You should already know the basics of Typescript: I don’t expect you to be a Typescript champion, however, surface-level understanding will prepare you for all the Typescript in the book.
+
+I wrote this book specifically for Mid, Senior and Senior+ engineers, and the book contains chapters of varying technical difficulty. However, I’ve done my best to explain these clearly and visually to satisfy different skill levels.
 
 ## Typographic conventions
 
