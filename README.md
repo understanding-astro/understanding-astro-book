@@ -261,9 +261,7 @@ The following is a detailed table of contents for Understanding Astro.
     <img src="images/ch-5.png" alt="Oh my React! (React documentation site clone)">
 </figure>
 
-## Chapter 5: Oh my React! (React documentation site clone)
-
-TBD ...
+## [Chapter 5: Oh my React! (React documentation site clone)](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md)
 
 <figure>
     <br>
