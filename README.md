@@ -12,7 +12,7 @@ This book is the ultimate guide to Astro. It represents months of work digging i
 
 If you want to understand Astro, you've come to the right source.
 
-## Want to download the ebooks? Click here
+## [Want to download the ebooks? Click here](https://www.ohans.me/understanding-astro)
 
 <br />
 
@@ -197,6 +197,13 @@ The following is a detailed table of contents for Understanding Astro.
     - #### [Preact](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#preact)
 
 - ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch3.md#conclusion)
+
+<br >
+<br >
+
+## [Want to download the ebooks? Click here](https://www.ohans.me/understanding-astro)
+
+<br >
 
 <figure>
     <br>
@@ -420,3 +427,10 @@ The following is a detailed table of contents for Understanding Astro.
 </figure>
 
 ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/conclusion.md)
+
+<br >
+<br >
+
+## [Want to download the ebooks? Click here](https://www.ohans.me/understanding-astro)
+
+<br >
