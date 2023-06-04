@@ -1940,12 +1940,12 @@ const { poster, title, subtitle } = Astro.props.frontmatter;
 
 Equally update the layout markup to render the image, title and subtitle:
 
-```html
+```astro
 <!-- 📂 src/layouts/Blog.astro -->
 <main>
   <figure class="figure">
     <img
-      src="{poster}"
+      src={poster}
       alt=""
       width="100%"
       height="480px"
@@ -2077,8 +2077,8 @@ const { title, to } = Astro.props;
 ---
 ```
 
-```html
-<a href="{to}" class="card">
+```astro
+<a href={to} class="card">
   <div class="card__inner">
     <div class="card__title">{title}</div>
     <!-- Render the arrow via HTML entity name: → = &rarr;-->
@@ -2356,11 +2356,11 @@ With scripts, a better solution (except the inline behaviour is ideal for your u
 
 For example, we may rewrite the previous solution as shown below:
 
-```html
+```astro
 ---
 ---
 
-<a href="{to}" class="card" data-gradientfrom="{gradientFrom}"> ... </a>
+<a href={to} class="card" data-gradientfrom={gradientFrom}> ... </a>
 ...
 <script>
   const card = document.querySelector(".card");

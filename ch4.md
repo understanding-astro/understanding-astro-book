@@ -526,7 +526,7 @@ Recall that we built the initial `UpvoteContent` component using React. We’ll 
 
 Here’s the annotated implementation:
 
-```js
+```vue
 <!-- 📂 src/components/UpvoteContent.vue -->
 <script>
 export default {
