@@ -70,7 +70,7 @@ As such, this book differs from the official documentation in a couple of ways:
 
 - **Saves time**: This book will save you countless hours tinkering with references and code samples as a by-product of the above distinctions. Yes, you can spend hours digging deep into the docs or Astro source code, but I’ve spent hours (months, actually) doing so! Therefore, I can present the learnings without you doing as much of the work - don’t be fooled; you still have to do the work of reading the book.
 
-> Consider reading (or skimming) the official documentation after reading this book or using it as a reference. This book complements the official docs, not replace them. ## How the book is structured
+> Consider reading (or skimming) the official documentation after reading this book or using it as a reference. This book complements the official docs, not replace them.
 
 ## How the book is structured
 
