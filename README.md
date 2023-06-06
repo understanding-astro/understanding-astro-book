@@ -1,6 +1,6 @@
 <h1 align="center">
   <a target="_blank" href="http://ohans.me/understanding-astro">
-    <img src="images/book-cover-transparent.png" alt="Understanding Astro book cover" title="Understanding Astro" width="75%">
+    <img src="images/book-cover-transparent.png" alt="Understanding Astro" title="Understanding Astro" width="75%">
   </a>
 </h1>
 
@@ -8,7 +8,9 @@
 
 > Welcome to Understanding Astro!
 
-This book is the ultimate guide to Astro. It represents months of work digging into Astro and conveying that to you in a practical and easy to understand fashion.
+This book is the ultimate guide to Astro, the next-gen web framework designed for speed 🚀
+
+Understanding Astro is the result of spending months digging into Astro and conveying the results in a practical and easy to understand fashion.
 
 If you want to understand Astro, you've come to the right source.
 
