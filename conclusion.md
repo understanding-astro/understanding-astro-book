@@ -4,7 +4,7 @@ Look who made it to the end! 🚀
 
 Yes, you!
 
-I’ve poured my heart into the last chapters, and I’m sure you’ve learned a thing or two.
+I’ve poured my heart into this book, and I’m sure you’ve learned a thing or two.
 
 So, where do you go next?
 
