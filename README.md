@@ -14,7 +14,7 @@ Understanding Astro is the result of spending months digging into Astro and conv
 
 If you want to understand Astro, you've come to the right source.
 
-> Don't just learn another framework. Understand it. 
+> Don't just learn another framework. Understand it.
 
 ## [Want to download the ebooks? Click here](https://www.ohans.me/understanding-astro)
 
@@ -272,7 +272,75 @@ The following is a detailed table of contents for Understanding Astro.
     <img src="images/ch-5.png" alt="Oh my React! (React documentation site clone)">
 </figure>
 
-## [Chapter 5: Oh my React! (React documentation site clone)](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md)
+- ## [Chapter 5: Oh my React! (React documentation site clone)](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md)
+
+- ## [What you’ll learn](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#what-youll-learn)
+
+- ## [Set up the starter project](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#set-up-the-starter-project)
+
+- ## [Installing dependencies](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#installing-dependencies)
+
+- ## [Styling Astro projects with Tailwind](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#styling-astro-projects-with-tailwind)
+
+  - ### [Installing Tailwind](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#installing-tailwind)
+  - ### [How does Tailwind work?](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#how-does-tailwind-work)
+  - ### [Tailwind configuration](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#tailwind-configuration)
+
+- ## [Typescript import alias](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#typescript-import-alias)
+
+- ## [Islands & colocating page components](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#islands--colocating-page-components)
+
+- ## [Syntax highlighting](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#syntax-highlighting)
+
+  - ### [The default Code component](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#the-default-code-component)
+
+    - #### [Pros](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#pros)
+    - #### [Cons](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#cons)
+
+  - ### [Bring your theme](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#bring-your-theme)
+
+    - #### [Pros](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#pros-1)
+    - #### [Cons](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#cons-1)
+
+  - ### [Handling light and dark themes](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#handling-light-and-dark-themes)
+
+- ## [Getting Started with Content Collections](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#getting-started-with-content-collections)
+
+  - ### [What Problems Do Content Collections Solve?](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#what-problems-do-content-collections-solve)
+
+  - ### [Organising content collections](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#organising-content-collections)
+
+  - ### [Authoring content with MDX](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#authoring-content-with-mdx)
+
+  - ### [Configuring content collections](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#configuring-content-collections)
+
+    - #### [Quick Zod](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#quick-zod)
+    - #### [The .astro folder](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#the-astro-folder)
+
+- ## [Query and render content collections](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#query-and-render-content-collections)
+
+- ## [Dynamic routing](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#dynamic-routing)
+
+  - ### [1. Named parameters](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#1-named-parameters)
+  - ### [2. Rest parameters](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#2-rest-parameters)
+  - ### [Priority order](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#priority-order)
+
+- ## [Generate routes with content collections](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#generate-routes-with-content-collections)
+
+  - ### [Rendering each blog content](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#rendering-each-blog-content)
+
+- ## [MDX components](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#mdx-components)
+
+  - ### [Customised HTML elements](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#customised-html-elements)
+  - ### [Internal components](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#internal-components)
+  - ### [External imports](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#external-imports)
+  - ### [AutoImport](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#autoimport)
+
+- ## [Integration spotlight: Astro SEO](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#integration-spotlight-astro-seo)
+
+- ## [Custom 404 pages in Astro](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#custom-404-pages-in-astro)
+
+- ## [Conclusion](https://github.com/understanding-astro/understanding-astro-book/blob/master/ch5.md#conclusion)
 
 <figure>
     <br>
