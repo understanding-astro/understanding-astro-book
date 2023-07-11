@@ -10,9 +10,11 @@
 
 This book is the ultimate guide to Astro, the next-gen web framework designed for speed 🚀
 
-Understanding Astro is the result of spending months digging into Astro and conveying the results in a practical and easy to understand fashion.
+Understanding Astro is the result of spending months digging into Astro and conveying the results in a practical and easy-to-understand fashion.
 
 If you want to understand Astro, you've come to the right source.
+
+> Don't just learn another framework. Understand it. 
 
 ## [Want to download the ebooks? Click here](https://www.ohans.me/understanding-astro)
 
