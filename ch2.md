@@ -472,7 +472,11 @@ Consider the starting `index.astro` page below:
 
 Conceptually, we could compose the `index.astro` component from two smaller components: `Head` and `Body`.
 
-![Composing the index page from the Head and Body components](images/ch2/c-2.png width=300)
+<figure>
+    <img src="images/ch2/c-2.png" width="70%" alt="Composing the index page from the Head and Body components." align="center">
+    <figcaption><em>Composing the index page from the Head and Body components.</em></figcaption>
+    <br><br><br>
+</figure>
 
 Here’s how:
 
