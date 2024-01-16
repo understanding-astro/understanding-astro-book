@@ -186,7 +186,7 @@ For other runtimes, the official Astro [deployment guides](https://docs.astro.bu
 With the `output` configuration property set to `server`, every page in our Astro project will be server-side rendered. However, there’s a great chance we may want one or more pages to be statically generated at build time, i.e., some pages server-side rendered and others pre-rendered.
 
 <figure>
-    <img src="images/ch6/hybrid_rendering.png width" width="50%" alt="Having a mix of server and statically rendered pages." align="center">
+    <img src="images/ch6/hybrid_rendering.png" width="50%" alt="Having a mix of server and statically rendered pages." align="center">
     <figcaption><em>Having a mix of server and statically rendered pages.</em></figcaption>
     <br><br><br>
 </figure>
