@@ -749,9 +749,9 @@ Consider the following product pages:
 /products/types/category/product-id
 ```
 
-The routes above will all be matched by the page `pages/product/[...path].astro`, and we can access the full dynamic string path within our code.
+The routes above will all be matched by the page `pages/products/[...path].astro`, and we can access the full dynamic string path within our code.
 
-For example, create a file in `/pages/product/[...path].astro` with the following content:
+For example, create a file in `/pages/products/[...path].astro` with the following content:
 
 ```js
 ---
