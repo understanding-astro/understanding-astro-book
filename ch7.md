@@ -180,7 +180,7 @@ Name the project `BeAudible` and choose whether to use Google Analytics in the p
 After successfully creating the project, add a web application to the Firebase project.
 
 <figure>
-    <img src="images/ch7/CleanShot 2023-05-26 at 12.51.18@2x.png" width="70%" alt="Adding a web application to the Firebase project" align="center">
+    <img src="images/ch7/CleanShot%202023-05-26%20at%2012.51.18@2x.png" width="70%" alt="Adding a web application to the Firebase project" align="center">
     <figcaption><em>Adding a web application to the Firebase project.</em></figcaption>
     <br><br><br>
 </figure>
