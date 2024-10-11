@@ -506,3 +506,8 @@ The following is a detailed table of contents for Understanding Astro.
 ## [Want to download the ebooks? Click here](https://www.ohans.me/understanding-astro)
 
 <br >
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the [LICENSE.md](LICENSE.md) file for details.
+

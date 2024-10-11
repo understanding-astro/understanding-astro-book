@@ -1,0 +1,1 @@
+understanding-astro-book © 2023 by Ohans Emmanuel is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
